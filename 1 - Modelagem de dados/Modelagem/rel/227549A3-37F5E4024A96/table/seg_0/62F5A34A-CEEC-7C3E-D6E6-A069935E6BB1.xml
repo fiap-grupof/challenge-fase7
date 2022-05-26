@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62F5A34A-CEEC-7C3E-D6E6-A069935E6BB1" name="T.SM.REGIAO">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>A76ABA9A-3F7C-2BEB-24B0-91B8E2F05A14</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_regiao" id="ED8DB75A-58AF-688B-4FB8-B8942AE499A6">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>2B2DF0EE-B3C1-3ABB-6351-053A760CA82A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T.SM.PAIS_cd_pais" id="BF875C11-C46D-24D4-BC98-B09F453E17F6">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>5E04F198-7839-CDF0-D040-C49DE8402844</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18D2182E-76E5-54F6-ABF7-7ECE87B92111" referredColumn="14F8648F-F934-9C89-8E7A-9EAAB233778E"/>
+</associations>
+</Column>
+<Column name="nm_regiao" id="CDC7EE04-0A50-EB19-746A-CE99760D307F">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>28CD3774-ABAD-0268-D5BA-D819F083340A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B2649F1-3A94-C7A0-A9BD-29173C11CAEA" name="T.SM.REGIAO_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>33841239-CE2E-07D6-DE48-8A2C31730137</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED8DB75A-58AF-688B-4FB8-B8942AE499A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB2F6C18-0740-0996-0F6A-85C233D9F33E" name="T.SM.REGIAO_T.SM.PAIS_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>63C8E97F-57E2-6436-81C2-5BC8BCEC4962</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF875C11-C46D-24D4-BC98-B09F453E17F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

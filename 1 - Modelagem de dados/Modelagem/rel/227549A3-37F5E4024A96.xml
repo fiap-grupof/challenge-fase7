@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" mainViewID="39DDFA1C-584C-15A1-9626-DF0F60B862CA">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational" id="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" mainViewID="39DDFA1C-584C-15A1-9626-DF0F60B862CA">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 18:52:47 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>

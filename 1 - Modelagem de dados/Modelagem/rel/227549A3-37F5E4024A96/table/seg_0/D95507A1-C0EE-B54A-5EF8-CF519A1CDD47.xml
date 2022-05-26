@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D95507A1-C0EE-B54A-5EF8-CF519A1CDD47" name="T.SM.CONTAGIO">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>C659ECEE-920E-E8C8-6E21-C2D47AD5007B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_contagio" id="D651BECC-8235-762D-E265-8975A1A12E19">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>9C345802-8891-0603-9A75-5592B4EA8FB6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T.SM.DOENCA_cd_doenca" id="18CE8F25-A98F-AD55-C209-A4283B5F3EF5">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>4F8CF757-4C25-6D81-CC2D-3526526F1B80</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DE2EC99-6FDD-5C6B-EB6A-165A152C09AE" referredColumn="77E15373-39E4-3A2E-E323-9A5A89AD9BAD"/>
+</associations>
+</Column>
+<Column name="T.SM.PESSOA_cd_pessoa" id="E5E59F8C-7BE6-4090-62C9-2C315AA94684">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>51CFEE07-BD2F-D95B-017F-7AEAF0F96E5E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E189AF13-C738-229D-E6F7-4FF8322AD839" referredColumn="07578D39-8AE1-7ECD-523C-4E59BEF21A47"/>
+</associations>
+</Column>
+<Column name="dt_contagio" id="ED9E55B0-AF8C-2E84-00F0-D40A1270691A">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>DAB4AC5D-1306-5870-8C8D-DB77A6B0AC18</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C4C7E59-295C-EFAD-316D-56AB9529A1C6" name="T.SM.CONTAGIO_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>68C6D9AA-BD0A-06B9-E9BB-374309AAFE40</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D651BECC-8235-762D-E265-8975A1A12E19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="350758CC-5C47-0CB8-4EAB-5297A408E9D6" name="T.SM.CONTAGIO_T.SM.PESSOA_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>19459440-7757-9638-EBE6-34CD43AE959F</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5E59F8C-7BE6-4090-62C9-2C315AA94684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="935D5014-E25E-CFB0-A8AA-E72FF8AB133F" name="T.SM.CONTAGIO_T.SM.DOENCA_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<generatorID>D557E7C3-58B1-8F24-B4A6-8A2D1F2CA348</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18CE8F25-A98F-AD55-C209-A4283B5F3EF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

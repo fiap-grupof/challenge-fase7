@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A5A4405-85EC-2DE1-8723-93D9F111E56E" name="T.SM.PESSOA">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:26:55 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa" id="EA0D788D-2286-E80C-FF6A-52F43744B653">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:43:16 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cidade" id="82C7FCC4-9815-236A-4217-7C3E23A661D4">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:53:23 UTC</createdTime>
+<generatorID>EEBF5387-03B1-6108-0309-2CB7A95E7B2C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+</engineerTo>
+<referedAttribute>71C00E62-475C-06D7-C99E-A959377B7E25</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pessoa" id="93BD2192-39D0-B881-6E5E-122277C437A0">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:45:59 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_renda_familiar" id="4C7CB27A-C2CD-4084-F59E-59E85BC62526">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:08:17 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="6002CC46-5FB3-F951-3920-A39A30BDB894">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:46:54 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="91787CE7-33BD-C85C-D8E1-54C2656B4289">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:48:39 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5AA2A288-C90D-88D8-202A-A0CEE99BA0FC" name="T.SM.PESSOA PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:43:58 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA0D788D-2286-E80C-FF6A-52F43744B653</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
