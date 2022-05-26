@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62F5A34A-CEEC-7C3E-D6E6-A069935E6BB1" name="T.SM.REGIAO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88C375AC-903F-79D2-9E4B-36CE6C76EE38" name="T_SM_REGIAO">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>A76ABA9A-3F7C-2BEB-24B0-91B8E2F05A14</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cd_regiao" id="ED8DB75A-58AF-688B-4FB8-B8942AE499A6">
+<Column name="cd_regiao" id="8E1181C7-1C2F-1C67-63DA-54BF83403603">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>2B2DF0EE-B3C1-3ABB-6351-053A760CA82A</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T.SM.PAIS_cd_pais" id="BF875C11-C46D-24D4-BC98-B09F453E17F6">
+<Column name="T_SM_PAIS_cd_pais" id="31012F25-1B08-1BEA-CB02-54D71B14E536">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>5E04F198-7839-CDF0-D040-C49DE8402844</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,12 +33,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="18D2182E-76E5-54F6-ABF7-7ECE87B92111" referredColumn="14F8648F-F934-9C89-8E7A-9EAAB233778E"/>
+<colAssociation fkAssociation="F1EDE9AF-AC41-D86F-7E64-E66359AE1A49" referredColumn="FE4C4585-11F7-4D32-EBBA-9C366804F61C"/>
 </associations>
 </Column>
-<Column name="nm_regiao" id="CDC7EE04-0A50-EB19-746A-CE99760D307F">
+<Column name="nm_regiao" id="E72C4E16-01CD-2AD2-3002-CE077F9EF0E4">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>28CD3774-ABAD-0268-D5BA-D819F083340A</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,27 +50,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8B2649F1-3A94-C7A0-A9BD-29173C11CAEA" name="T.SM.REGIAO_PK">
+<ind_PK_UK id="39C72E3C-C38B-26B8-86B6-B84F3A638864" name="T_SM_REGIAO_PK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>33841239-CE2E-07D6-DE48-8A2C31730137</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ED8DB75A-58AF-688B-4FB8-B8942AE499A6"/>
+<colUsage columnID="8E1181C7-1C2F-1C67-63DA-54BF83403603"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CB2F6C18-0740-0996-0F6A-85C233D9F33E" name="T.SM.REGIAO_T.SM.PAIS_FK">
+<ind_PK_UK id="F9974CCE-D294-DA26-E909-ADDF737F7E14" name="T_SM_REGIAO_T_SM_PAIS_FK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>63C8E97F-57E2-6436-81C2-5BC8BCEC4962</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BF875C11-C46D-24D4-BC98-B09F453E17F6"/>
+<colUsage columnID="31012F25-1B08-1BEA-CB02-54D71B14E536"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

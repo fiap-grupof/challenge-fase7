@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4ADC5FBC-0989-27FE-9B4C-70442A4CD206" name="T.SM.DOENCA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1B97C42-0547-E456-04D1-CD019AAFA6DD" name="T_SM_DOENCA">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>98872700-0661-BD02-487C-D18907CC0291</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cd_doenca" id="77E15373-39E4-3A2E-E323-9A5A89AD9BAD">
+<Column name="cd_doenca" id="88D84428-EF76-EB47-EBA8-CA0A504D08D5">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>BA75ED8E-74EF-F7A2-E3A0-12252D69E072</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nm_doenca" id="9C73A262-79A8-9E4F-B64E-829EFDB18F34">
+<Column name="nm_doenca" id="8F48B26A-9B78-0CDA-E11A-EF781AD9877F">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>889BB7F3-A375-EE0D-0CCC-92C3AD801F1B</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,16 +34,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3B3488D9-44DC-1D58-20C7-E672D119D1BE" name="T.SM.DOENCA_PK">
+<ind_PK_UK id="31E30EAA-2AE4-1D35-2471-F0ACABA405F3" name="T_SM_DOENCA_PK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>F6560921-D9FF-6019-CA5B-0686982318F9</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="77E15373-39E4-3A2E-E323-9A5A89AD9BAD"/>
+<colUsage columnID="88D84428-EF76-EB47-EBA8-CA0A504D08D5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

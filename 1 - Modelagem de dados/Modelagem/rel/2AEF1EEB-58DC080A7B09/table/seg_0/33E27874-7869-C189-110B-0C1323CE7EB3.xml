@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="842B16FD-CC6A-199B-08B1-89C99927790E" name="T.SM.CIDADE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33E27874-7869-C189-110B-0C1323CE7EB3" name="T_SM_CIDADE">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>32395A9C-3056-DDA0-AC42-8FC6605226CD</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cd_cidade" id="ABD5F475-011C-2726-D54F-8D71C70ED3A2">
+<Column name="cd_cidade" id="DB7D31D9-EA39-C1BA-7E4F-90E09E2E15A4">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>71C00E62-475C-06D7-C99E-A959377B7E25</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T.SM.ESTADO_cd_estado" id="9546EB77-2FA1-2FDB-D8FF-A100CB495795">
+<Column name="T_SM_ESTADO_cd_estado" id="C538FD4F-45B3-6519-9D69-939EDE3B3D5D">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>3F368DDD-9CCA-A743-5455-FF1BB59873E3</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,12 +33,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="07EB868A-8658-E8DC-F602-B9C84902E57C" referredColumn="5BF7D067-EA61-58EC-90F5-83E9A322B761"/>
+<colAssociation fkAssociation="C71B0641-7CB0-F389-2112-C2DC7F70A792" referredColumn="F07632E6-E280-6137-DCC1-F6E6E00A6937"/>
 </associations>
 </Column>
-<Column name="nm_cidade" id="1F16EA01-EBED-1008-5568-2F7EE24C655E">
+<Column name="nm_cidade" id="55ADD262-A01F-9660-63D1-374930748583">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>6470FA13-08F1-1D43-05B6-A08E4FFDD709</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,27 +50,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="91C0C2A6-3DC9-F0BF-187A-B7B887825E3F" name="T.SM.CIDADE_PK">
+<ind_PK_UK id="2FD0726E-9FFB-891C-373F-FBEC47234AC7" name="T_SM_CIDADE_PK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>D011F297-95DA-7092-959B-9E66D85144E6</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ABD5F475-011C-2726-D54F-8D71C70ED3A2"/>
+<colUsage columnID="DB7D31D9-EA39-C1BA-7E4F-90E09E2E15A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C15955BC-0C19-EFF9-9408-5080D9CF1070" name="T.SM.CIDADE_T.SM.ESTADO_FK">
+<ind_PK_UK id="CD5C9CA0-5762-8D03-003B-A7C551A14F88" name="T_SM_CIDADE_T_SM_ESTADO_FK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>D26AA61D-01DE-0029-6758-FCA65466284D</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9546EB77-2FA1-2FDB-D8FF-A100CB495795"/>
+<colUsage columnID="C538FD4F-45B3-6519-9D69-939EDE3B3D5D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

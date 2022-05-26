@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34068A0F-DD2C-824E-200A-DDE23ED4C04C" name="T.SM.PESSOA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E528725D-D9F7-BE96-F27D-4DAE6B14E204" name="T_SM_PESSOA">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>3A5A4405-85EC-2DE1-8723-93D9F111E56E</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cd_pessoa" id="07578D39-8AE1-7ECD-523C-4E59BEF21A47">
+<Column name="cd_pessoa" id="A6C53F54-4C8B-62FB-BC9F-5EC9AF92BA19">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>EA0D788D-2286-E80C-FF6A-52F43744B653</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T.SM.CIDADE_cd_cidade" id="AF3E2636-2EFE-A26F-AF68-99B9850150DB">
+<Column name="T_SM_CIDADE_cd_cidade" id="A2CE05AF-267B-7111-642B-86F592780123">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>82C7FCC4-9815-236A-4217-7C3E23A661D4</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,12 +33,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="90B8EAA5-3ED9-0940-4C27-4B3EFDBCDC50" referredColumn="ABD5F475-011C-2726-D54F-8D71C70ED3A2"/>
+<colAssociation fkAssociation="30328D38-D709-CB75-CE4B-E5AADBBFC666" referredColumn="DB7D31D9-EA39-C1BA-7E4F-90E09E2E15A4"/>
 </associations>
 </Column>
-<Column name="nm_pessoa" id="2C3FCCE1-B634-635F-2EE5-23113163DE9D">
+<Column name="nm_pessoa" id="E7BF3268-273F-E5AF-6B08-B6D285F2F065">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>93BD2192-39D0-B881-6E5E-122277C437A0</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,9 +48,9 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nr_renda_familiar" id="FB648F5B-3A52-0714-D4A0-A79C6E0A887E">
+<Column name="nr_renda_familiar" id="012C0239-958C-E0FD-B172-8A3F05917BE5">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>4C7CB27A-C2CD-4084-F59E-59E85BC62526</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,9 +60,9 @@
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nr_rg" id="2D8D982E-A2D7-F363-D892-B0B224EE0E17">
+<Column name="nr_rg" id="5249C1B3-0948-D2FB-495E-D7D5926B7BF5">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>6002CC46-5FB3-F951-3920-A39A30BDB894</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -73,9 +73,9 @@
 <ownDataTypeParameters>,11,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nr_cpf" id="C669078E-0480-4D87-ACD9-BB333B9925C7">
+<Column name="nr_cpf" id="D418D477-CD6A-E4EC-B4E3-0E837C738F42">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>91787CE7-33BD-C85C-D8E1-54C2656B4289</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -88,27 +88,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="91412458-A1FD-DD33-46AB-F9F1F825FC41" name="T.SM.PESSOA_PK">
+<ind_PK_UK id="01A7E335-8EEC-2786-3AD2-3FF656C2A5C7" name="T_SM_PESSOA_PK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>5AA2A288-C90D-88D8-202A-A0CEE99BA0FC</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="07578D39-8AE1-7ECD-523C-4E59BEF21A47"/>
+<colUsage columnID="A6C53F54-4C8B-62FB-BC9F-5EC9AF92BA19"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8949EEBC-3346-0CCE-E5E0-D72A2BE55EC1" name="T.SM.PESSOA_T.SM.CIDADE_FK">
+<ind_PK_UK id="EAAD9587-BD13-4384-F00C-A39460CE190A" name="T_SM_PESSOA_T_SM_CIDADE_FK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>EEBF5387-03B1-6108-0309-2CB7A95E7B2C</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AF3E2636-2EFE-A26F-AF68-99B9850150DB"/>
+<colUsage columnID="A2CE05AF-267B-7111-642B-86F592780123"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

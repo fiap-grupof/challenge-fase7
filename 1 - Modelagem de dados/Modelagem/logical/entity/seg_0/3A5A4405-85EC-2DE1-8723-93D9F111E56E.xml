@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A5A4405-85EC-2DE1-8723-93D9F111E56E" name="T.SM.PESSOA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A5A4405-85EC-2DE1-8723-93D9F111E56E" name="T_SM_PESSOA">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:26:55 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_pessoa" id="93BD2192-39D0-B881-6E5E-122277C437A0">
 <createdBy>rennecastrucci</createdBy>
@@ -99,14 +99,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5AA2A288-C90D-88D8-202A-A0CEE99BA0FC" name="T.SM.PESSOA PK">
+<identifier id="5AA2A288-C90D-88D8-202A-A0CEE99BA0FC" name="T_SM_PESSOA PK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:43:58 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>EA0D788D-2286-E80C-FF6A-52F43744B653</newElementsIDs>
 <usedAttributes>
 <attributeRef>EA0D788D-2286-E80C-FF6A-52F43744B653</attributeRef>
 </usedAttributes>

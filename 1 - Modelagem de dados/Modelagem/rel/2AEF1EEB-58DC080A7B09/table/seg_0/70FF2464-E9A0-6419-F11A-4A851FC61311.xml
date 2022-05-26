@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A3AD7E6-DD3D-B0B4-A9A2-27FE9F263829" name="T.SM.ESTADO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70FF2464-E9A0-6419-F11A-4A851FC61311" name="T_SM_ESTADO">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>817D4F96-CDD0-3BD9-D9E0-BD9BCCB79929</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cd_estado" id="5BF7D067-EA61-58EC-90F5-83E9A322B761">
+<Column name="cd_estado" id="F07632E6-E280-6137-DCC1-F6E6E00A6937">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>A8EE50DB-992A-01A8-E89C-0BCC38BA7F4A</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T.SM.REGIAO_cd_regiao" id="2631921A-72ED-C1A2-0F05-1D1745FE8CD9">
+<Column name="T_SM_REGIAO_cd_regiao" id="70387477-A025-D43A-3FAD-874B0C21EDB0">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>605818AE-9F52-E654-FA6F-F1CB30109627</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,12 +33,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6B5C267B-10B8-CB9D-18D7-D4E9B9A8CA7E" referredColumn="ED8DB75A-58AF-688B-4FB8-B8942AE499A6"/>
+<colAssociation fkAssociation="4F3BF0BD-546C-FFBC-0633-FCAEF5990E55" referredColumn="8E1181C7-1C2F-1C67-63DA-54BF83403603"/>
 </associations>
 </Column>
-<Column name="nm_estado" id="398FE31D-8AD7-E502-0CB4-3A3984D4EB88">
+<Column name="nm_estado" id="5A679BF7-9481-C478-6AEB-D36F27796E7D">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>C2FE6FD2-3209-71C6-EC81-D5500ADD5A5E</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,9 +48,9 @@
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ds_abreviacao" id="F83A6150-1813-9548-ADC4-434B482FAC3D">
+<Column name="ds_abreviacao" id="04E1DE5C-77CE-3196-5719-434ADCAD4D81">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>DD020C8D-1EBD-1041-24B4-D9229ABB0A08</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,27 +62,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FB282A6D-3562-F477-56CF-B0E9D464C15F" name="T.SM.ESTADO_PK">
+<ind_PK_UK id="CD1D7F4F-65AE-7F56-690B-D05BD3DAAC81" name="T_SM_ESTADO_PK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>D0BD2570-3144-5895-DC40-D2472C3E9764</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5BF7D067-EA61-58EC-90F5-83E9A322B761"/>
+<colUsage columnID="F07632E6-E280-6137-DCC1-F6E6E00A6937"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A1DF3BBE-1AA0-45F6-ACD5-2686E1CE9D5E" name="T.SM.ESTADO_T.SM.REGIAO_FK">
+<ind_PK_UK id="948FE1D2-4E83-A899-2822-8F71AF3514CD" name="T_SM_ESTADO_T_SM_REGIAO_FK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:21:35 UTC</createdTime>
+<createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>FCC5FF65-DF5E-0A67-C212-BB047A207461</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2631921A-72ED-C1A2-0F05-1D1745FE8CD9"/>
+<colUsage columnID="70387477-A025-D43A-3FAD-874B0C21EDB0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
