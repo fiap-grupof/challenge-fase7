@@ -18,3 +18,11 @@ As Regiões do brasil (Norte, Nordeste, Centro-Oeste, Sudeste e Sul)
 -Qual é a faixa de idade das pessoas que mais tem dengue por região.
 -Dependendo da quantidade de agentes de endemias na região conseguimos entender o número de infectados pelas doenças.
 -Número de pessoas na residência que talvez possa influenciar a quantidade de contaminações na familia.
+
+-Dengue: identificar qual tipo da dengue é mais predominante por região. 
+-Zika virus: identificar qual região tem maior predominância de sequelas (bebes com microcefalia) 
+-Malaria: identificar regiões com maior taxa de mortalidade? 
+
+-Com essa flexibilidade do sistema, poderiam ser monitorados os dados da febre amarela, possibilitando além de um melhor controle da doença, um impacto socioambiental positivo ao instruir a população sobre a doença, tendo em vista que quando ocorrem essas endemias, muitas pessoas matam os macacos por não ter conhecimento. 
+
+-Linha de produtos (inseticidas): Com o monitoramento é possível planejar a parte comercial/ambiental/social (ESG), sabendo onde sua atuação trará mais impactos. 
