@@ -1,10 +1,10 @@
 # Challenge Fase 7
 Challenge Fase 7 - Graduação FIAP 1TDSOS 1º Ano
 
-*DADOS IMPORTANTES*
-As pessoas
-As doenças (Dengue, Malária e Zika)
-As Regiões do brasil (Norte, Nordeste, Centro-Oeste, Sudeste e Sul)
+**DADOS IMPORTANTES** <br>
+-As pessoas <br>
+-As doenças (Dengue, Malária e Zika) <br>
+-As Regiões do brasil (Norte, Nordeste, Centro-Oeste, Sudeste e Sul) <br>
 
 # Insights
 
