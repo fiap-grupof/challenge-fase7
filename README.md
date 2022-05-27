@@ -26,3 +26,21 @@ Challenge Fase 7 - Graduação FIAP 1TDSOS 1º Ano
 -Com essa flexibilidade do sistema, poderiam ser monitorados os dados da febre amarela, possibilitando além de um melhor controle da doença, um impacto socioambiental positivo ao instruir a população sobre a doença, tendo em vista que quando ocorrem essas endemias, muitas pessoas matam os macacos por não ter conhecimento. 
 
 -Linha de produtos (inseticidas): Com o monitoramento é possível planejar a parte comercial/ambiental/social (ESG), sabendo onde sua atuação trará mais impactos. 
+
+## ITENS EM PRODUÇÃO
+
+### 1 - Modelagem de dados
+#### Modelo Lógico
+<img align="center" src="1%20-%20Modelagem%20de%20dados/SM_BAYER_Modelo_Logico.png" alt="Modelo Logico"/>
+
+#### Modelo Relacional
+<img align="center" src="1%20-%20Modelagem%20de%20dados/SM_BAYER_Modelo_Relacional.png" alt="Modelo Relacional"/>
+
+# 2 - Criação do modelo físico
+<a href="2%20-%20Criação%20do%20modelo%20físico/0_Criacao_Tabelas.sql">Link para o modelo físico - SQL</a>
+
+# 3 - Diagrama de classes
+
+# 4 - Persistência dos dados
+
+# 5 - Insights
