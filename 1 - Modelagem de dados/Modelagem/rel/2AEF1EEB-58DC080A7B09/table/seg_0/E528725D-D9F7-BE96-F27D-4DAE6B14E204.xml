@@ -36,6 +36,22 @@
 <colAssociation fkAssociation="30328D38-D709-CB75-CE4B-E5AADBBFC666" referredColumn="DB7D31D9-EA39-C1BA-7E4F-90E09E2E15A4"/>
 </associations>
 </Column>
+<Column name="T_SM_ESCOLAR_cd_escolaridade" id="4FD301A7-5F06-934D-7EB0-6D3C9FB57409">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>C1581621-65AF-844C-74D5-D270EBEAFA54</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FEC8122-4609-D3BD-7F83-A48A133DB2DE" referredColumn="46A003BB-9ACA-DC48-BFF7-9D044A01AF15"/>
+</associations>
+</Column>
 <Column name="nm_pessoa" id="E7BF3268-273F-E5AF-6B08-B6D285F2F065">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 21:28:37 UTC</createdTime>
@@ -86,6 +102,17 @@
 <ownDataTypeParameters>,11,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="dt_nasc" id="6BA91B05-2D82-AFCA-CD08-3E279322E6FD">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>B26E59C8-9BFD-8DA9-65B2-558417E52564</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="01A7E335-8EEC-2786-3AD2-3FF656C2A5C7" name="T_SM_PESSOA_PK">
@@ -109,6 +136,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A2CE05AF-267B-7111-642B-86F592780123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F65E6B71-BBDC-96E8-8FA5-3DD00122314D" name="T_SM_PESSOA_T_SM_ESCOLAR_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>9C5BFBA5-81A4-DA2A-5389-795021CA7B60</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FD301A7-5F06-934D-7EB0-6D3C9FB57409"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

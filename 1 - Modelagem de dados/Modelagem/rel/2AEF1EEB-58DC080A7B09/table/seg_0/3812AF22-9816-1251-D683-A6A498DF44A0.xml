@@ -1,45 +1,45 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33E27874-7869-C189-110B-0C1323CE7EB3" name="T_SM_CIDADE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3812AF22-9816-1251-D683-A6A498DF44A0" name="T_SM_VANICA">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 21:28:37 UTC</createdTime>
-<generatorID>32395A9C-3056-DDA0-AC42-8FC6605226CD</generatorID>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>5E60002F-2614-78F1-A240-3D7A7B7324B7</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cd_cidade" id="DB7D31D9-EA39-C1BA-7E4F-90E09E2E15A4">
+<Column name="cd_vacina" id="41A08FEB-64A0-F1CC-7E9C-A83727D2422E">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 21:28:37 UTC</createdTime>
-<generatorID>71C00E62-475C-06D7-C99E-A959377B7E25</generatorID>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>84D616E4-D9AC-E44E-4406-1822F1048D7D</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T_SM_ESTADO_cd_estado" id="C538FD4F-45B3-6519-9D69-939EDE3B3D5D">
+<Column name="T_SM_DOENCA_cd_doenca" id="0F96E7F7-03E8-F114-93D1-BF8C8E002D0B">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 21:28:37 UTC</createdTime>
-<generatorID>3F368DDD-9CCA-A743-5455-FF1BB59873E3</generatorID>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>000D5FB0-DDC0-D956-7BF4-268E543A0720</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C71B0641-7CB0-F389-2112-C2DC7F70A792" referredColumn="F07632E6-E280-6137-DCC1-F6E6E00A6937"/>
+<colAssociation fkAssociation="4D7220E5-F219-5669-6AE8-8BAEF2E65933" referredColumn="88D84428-EF76-EB47-EBA8-CA0A504D08D5"/>
 </associations>
 </Column>
-<Column name="nm_cidade" id="55ADD262-A01F-9660-63D1-374930748583">
+<Column name="nm_vacina" id="1E35D47A-8413-9789-4DE7-26B879038186">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 21:28:37 UTC</createdTime>
-<generatorID>6470FA13-08F1-1D43-05B6-A08E4FFDD709</generatorID>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>C43C566C-ECFB-EA7C-E14C-7BDDAFD59CE8</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,42 +48,41 @@
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nr_agente" id="31821851-BF96-0B40-79B8-37C776E34A17">
+<Column name="nm_laboratorio" id="73AD0FC8-F5A7-1A5F-92C9-644938737875">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
-<generatorID>6F0E948A-8472-514D-9B76-7D8A87E0F008</generatorID>
+<generatorID>C404B551-7FC8-6F2B-FC15-212C0F96866A</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2FD0726E-9FFB-891C-373F-FBEC47234AC7" name="T_SM_CIDADE_PK">
+<ind_PK_UK id="EA424AF0-2A26-B04E-1650-30AD57D9CB34" name="T_SM_VANICA_PK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 21:28:37 UTC</createdTime>
-<generatorID>D011F297-95DA-7092-959B-9E66D85144E6</generatorID>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>BA1B470E-04FC-5638-AAA9-2FC66E13C01F</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DB7D31D9-EA39-C1BA-7E4F-90E09E2E15A4"/>
+<colUsage columnID="41A08FEB-64A0-F1CC-7E9C-A83727D2422E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CD5C9CA0-5762-8D03-003B-A7C551A14F88" name="T_SM_CIDADE_T_SM_ESTADO_FK">
+<ind_PK_UK id="C1B6A2DE-4129-A17B-7FDE-25B9E8A80E92" name="T_SM_VANICA_T_SM_DOENCA_FK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 21:28:37 UTC</createdTime>
-<generatorID>D26AA61D-01DE-0029-6758-FCA65466284D</generatorID>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>D21CE2B3-D4AE-FFCA-976F-453B3A5C7F1B</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C538FD4F-45B3-6519-9D69-939EDE3B3D5D"/>
+<colUsage columnID="0F96E7F7-03E8-F114-93D1-BF8C8E002D0B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

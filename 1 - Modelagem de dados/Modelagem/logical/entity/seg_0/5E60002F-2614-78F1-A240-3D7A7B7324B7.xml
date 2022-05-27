@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C659ECEE-920E-E8C8-6E21-C2D47AD5007B" name="T_SM_CONTAGIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E60002F-2614-78F1-A240-3D7A7B7324B7" name="T_SM_VANICA">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 19:54:41 UTC</createdTime>
+<createdTime>2022-05-27 00:02:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_contagio" id="9C345802-8891-0603-9A75-5592B4EA8FB6">
+<Attribute name="cd_vacina" id="84D616E4-D9AC-E44E-4406-1822F1048D7D">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:18:17 UTC</createdTime>
+<createdTime>2022-05-27 00:03:06 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
@@ -25,13 +25,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_doenca" id="4F8CF757-4C25-6D81-CC2D-3526526F1B80">
+<Attribute name="cd_doenca" id="000D5FB0-DDC0-D956-7BF4-268E543A0720">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 19:56:47 UTC</createdTime>
-<generatorID>D557E7C3-58B1-8F24-B4A6-8A2D1F2CA348</generatorID>
+<createdTime>2022-05-27 00:05:21 UTC</createdTime>
+<generatorID>D21CE2B3-D4AE-FFCA-976F-453B3A5C7F1B</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
@@ -41,48 +41,46 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_pessoa" id="51CFEE07-BD2F-D95B-017F-7AEAF0F96E5E">
-<createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 19:57:27 UTC</createdTime>
-<generatorID>19459440-7757-9638-EBE6-34CD43AE959F</generatorID>
-<ownerDesignName>Modelagem</ownerDesignName>
-<engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
-</engineerTo>
-<referedAttribute>EA0D788D-2286-E80C-FF6A-52F43744B653</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dt_contagio" id="DAB4AC5D-1306-5870-8C8D-DB77A6B0AC18">
-<createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 19:57:48 UTC</createdTime>
-<ownerDesignName>Modelagem</ownerDesignName>
-<engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_vacina" id="C43C566C-ECFB-EA7C-E14C-7BDDAFD59CE8">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:04:03 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_laboratorio" id="C404B551-7FC8-6F2B-FC15-212C0F96866A">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:04:28 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="68C6D9AA-BD0A-06B9-E9BB-374309AAFE40" name="T_SM_CONTAGIO PK">
+<identifier id="BA1B470E-04FC-5638-AAA9-2FC66E13C01F" name="T_SM_VANICA PK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:18:23 UTC</createdTime>
+<createdTime>2022-05-27 00:03:15 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>9C345802-8891-0603-9A75-5592B4EA8FB6</newElementsIDs>
 <usedAttributes>
-<attributeRef>9C345802-8891-0603-9A75-5592B4EA8FB6</attributeRef>
+<attributeRef>84D616E4-D9AC-E44E-4406-1822F1048D7D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

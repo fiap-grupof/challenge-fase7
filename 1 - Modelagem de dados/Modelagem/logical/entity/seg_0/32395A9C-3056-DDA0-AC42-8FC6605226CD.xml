@@ -4,7 +4,7 @@
 <createdTime>2022-05-26 19:30:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
-<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <ownerDesignName>Modelagem</ownerDesignName>
 <importedID>F21CC53C-6E58-7E77-F975-12A549DD6C64</importedID>
 <engineerTo>
-<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,7 +36,7 @@
 <ownerDesignName>Modelagem</ownerDesignName>
 <importedID>AE046713-1330-94C6-DE61-303171410E7A</importedID>
 <engineerTo>
-<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
 <referedAttribute>A8EE50DB-992A-01A8-E89C-0BCC38BA7F4A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -51,7 +51,7 @@
 <ownerDesignName>Modelagem</ownerDesignName>
 <importedID>1DFB4212-9B71-DE1E-7B4F-B87215E96227</importedID>
 <engineerTo>
-<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,15 +59,28 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nr_agente" id="6F0E948A-8472-514D-9B76-7D8A87E0F008">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 22:52:32 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D011F297-95DA-7092-959B-9E66D85144E6" name="T_CIDADE PK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:30:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="false"/>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

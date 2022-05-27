@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C659ECEE-920E-E8C8-6E21-C2D47AD5007B" name="T_SM_CONTAGIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3ECD9E7-303F-E44C-6A3D-1C06CC2903D7" name="T_SM_IDH">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 19:54:41 UTC</createdTime>
+<createdTime>2022-05-26 23:05:49 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_contagio" id="9C345802-8891-0603-9A75-5592B4EA8FB6">
+<Attribute name="cd_idh" id="DC904966-5B7B-28B1-77C9-DA57BC7C6E5E">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:18:17 UTC</createdTime>
+<createdTime>2022-05-26 23:06:28 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
@@ -25,42 +25,40 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_doenca" id="4F8CF757-4C25-6D81-CC2D-3526526F1B80">
+<Attribute name="cd_regiao" id="87F7CCA3-D077-FC9C-4205-8D1EF8899266">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 19:56:47 UTC</createdTime>
-<generatorID>D557E7C3-58B1-8F24-B4A6-8A2D1F2CA348</generatorID>
+<createdTime>2022-05-26 23:07:35 UTC</createdTime>
+<generatorID>C2815058-52BE-0FB2-5344-3C5DE9E5DFC2</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
-<referedAttribute>BA75ED8E-74EF-F7A2-E3A0-12252D69E072</referedAttribute>
+<referedAttribute>2B2DF0EE-B3C1-3ABB-6351-053A760CA82A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_pessoa" id="51CFEE07-BD2F-D95B-017F-7AEAF0F96E5E">
+<Attribute name="nr_indice" id="A779F326-422E-00AA-CAE3-9721720628C2">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 19:57:27 UTC</createdTime>
-<generatorID>19459440-7757-9638-EBE6-34CD43AE959F</generatorID>
+<createdTime>2022-05-26 23:06:45 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
-<referedAttribute>EA0D788D-2286-E80C-FF6A-52F43744B653</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_contagio" id="DAB4AC5D-1306-5870-8C8D-DB77A6B0AC18">
+<Attribute name="dt_periodo" id="5F8457F1-4463-148A-544D-397D04865688">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 19:57:48 UTC</createdTime>
+<createdTime>2022-05-26 23:06:59 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
@@ -72,17 +70,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="68C6D9AA-BD0A-06B9-E9BB-374309AAFE40" name="T_SM_CONTAGIO PK">
+<identifier id="BBA4EC9E-0B8E-F8F6-7A81-4D1921290F9D" name="IDH PK">
 <createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-26 20:18:23 UTC</createdTime>
+<createdTime>2022-05-26 23:06:42 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>9C345802-8891-0603-9A75-5592B4EA8FB6</newElementsIDs>
 <usedAttributes>
-<attributeRef>9C345802-8891-0603-9A75-5592B4EA8FB6</attributeRef>
+<attributeRef>DC904966-5B7B-28B1-77C9-DA57BC7C6E5E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

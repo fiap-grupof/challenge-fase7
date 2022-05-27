@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2665DC0-AD5B-B537-FB88-2EEAFCD96F2F" name="T_SM_PESSOA_VACINA">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>5B6D987A-BE9E-C6D4-5147-EC1F916D5F89</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_relacao" id="BF63FA00-0F11-0050-C07F-629B3A6E5703">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>44714B51-CEFB-BCCD-5539-4DA3368C5B99</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SM_PESSOA_cd_pessoa" id="C59F450E-8EEA-BEE7-8317-21B5966F53A0">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>85ED52F8-4398-9765-36E1-CE7C21622C49</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3484F396-C999-3CE5-485D-6D419CAA7FBF" referredColumn="A6C53F54-4C8B-62FB-BC9F-5EC9AF92BA19"/>
+</associations>
+</Column>
+<Column name="T_SM_VANICA_cd_vacina" id="04AE1BF8-7873-8B24-B733-641C47311CAA">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>2AA3DF29-A1F2-D51D-0FA9-739BDACFA24A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D448160-6A8A-0106-99FD-8DEC4E6D9BCA" referredColumn="41A08FEB-64A0-F1CC-7E9C-A83727D2422E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFB81DA8-ACDF-BFC1-53CC-2A93114B5BBE" name="T_SM_PESSOA_VACINA_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>308E2F2B-2E2A-0586-A32E-6ED0A8806C54</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF63FA00-0F11-0050-C07F-629B3A6E5703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46521E51-B7DA-131B-FD3C-C8B251948A3D" name="T_SM_PESSOA_VAC_T_SM_PESSOA_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>E2F83856-D62C-A046-63CD-2F40CF685E66</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C59F450E-8EEA-BEE7-8317-21B5966F53A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64147C39-7299-257E-CA66-B7D1BB08E66C" name="T_SM_PESSOA_VAC_T_SM_VANICA_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:25:31 UTC</createdTime>
+<generatorID>543F3785-39F8-5577-8A63-25CDEF486128</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04AE1BF8-7873-8B24-B733-641C47311CAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
