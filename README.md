@@ -40,6 +40,7 @@ Challenge Fase 7 - Graduação FIAP 1TDSOS 1º Ano
 <a href="2%20-%20Criação%20do%20modelo%20físico/0_Criacao_Tabelas.sql">Link para o modelo físico - SQL</a>
 
 # 3 - Diagrama de classes
+<a href="https://github.com/fiap-grupof/challenge-fase7/blob/main/3%20-%20Diagrama%20de%20classes/uml.png" alt="UML"/>
 
 # 4 - Persistência dos dados
 
