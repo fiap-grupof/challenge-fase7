@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3812AF22-9816-1251-D683-A6A498DF44A0" name="T_SM_VANICA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3812AF22-9816-1251-D683-A6A498DF44A0" name="T_SM_VACINA">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>5E60002F-2614-78F1-A240-3D7A7B7324B7</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
+<ordsAlias>t_sm_vanica</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -15,9 +16,7 @@
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="T_SM_DOENCA_cd_doenca" id="0F96E7F7-03E8-F114-93D1-BF8C8E002D0B">
@@ -27,7 +26,6 @@
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
@@ -43,7 +41,6 @@
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -55,14 +52,13 @@
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EA424AF0-2A26-B04E-1650-30AD57D9CB34" name="T_SM_VANICA_PK">
+<ind_PK_UK id="EA424AF0-2A26-B04E-1650-30AD57D9CB34" name="T_SM_VACINA_PK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>BA1B470E-04FC-5638-AAA9-2FC66E13C01F</generatorID>
@@ -74,7 +70,7 @@
 <colUsage columnID="41A08FEB-64A0-F1CC-7E9C-A83727D2422E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C1B6A2DE-4129-A17B-7FDE-25B9E8A80E92" name="T_SM_VANICA_T_SM_DOENCA_FK">
+<ind_PK_UK id="C1B6A2DE-4129-A17B-7FDE-25B9E8A80E92" name="T_SM_VACINA_T_SM_DOENCA_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>D21CE2B3-D4AE-FFCA-976F-453B3A5C7F1B</generatorID>
