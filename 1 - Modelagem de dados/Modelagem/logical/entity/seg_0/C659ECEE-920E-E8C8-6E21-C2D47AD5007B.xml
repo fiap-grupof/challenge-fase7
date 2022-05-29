@@ -24,9 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_doenca" id="4F8CF757-4C25-6D81-CC2D-3526526F1B80">
 <createdBy>rennecastrucci</createdBy>
@@ -39,7 +37,6 @@
 <referedAttribute>BA75ED8E-74EF-F7A2-E3A0-12252D69E072</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
@@ -54,9 +51,21 @@
 <referedAttribute>EA0D788D-2286-E80C-FF6A-52F43744B653</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_gravidade" id="D453EF82-3C52-A203-7162-2F5DDB510D69">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-28 20:55:32 UTC</createdTime>
+<generatorID>5CF0D922-BF52-7057-E9C5-7AA9D38913E7</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+</engineerTo>
+<referedAttribute>59DB919C-582F-A166-3D95-2335B494CE9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_contagio" id="DAB4AC5D-1306-5870-8C8D-DB77A6B0AC18">
 <createdBy>rennecastrucci</createdBy>
@@ -67,7 +76,6 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
