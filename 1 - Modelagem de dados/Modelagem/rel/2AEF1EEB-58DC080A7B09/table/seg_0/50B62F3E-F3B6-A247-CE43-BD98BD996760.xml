@@ -63,6 +63,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="T_SM_GRAVIDADE_cd_gravidade" id="920C1863-F889-A51D-4DA0-4A95673A259C">
+<createdBy>GSever</createdBy>
+<createdTime>2022-06-06 22:38:38 UTC</createdTime>
+<generatorID>D453EF82-3C52-A203-7162-2F5DDB510D69</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C700555-3D26-4CF3-6428-040786F95337" referredColumn="9A4ABB4B-D473-6448-B814-F1B5114D3E4B"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E71ABA8B-4F2E-9C6B-95CF-2C73223E2CE9" name="T_SM_CONTAGIO_PK">
@@ -77,7 +93,7 @@
 <colUsage columnID="7AB7ED4A-5CB4-1C11-ECC0-1029A0C2EE67"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="772D8A45-49B6-CE15-6BEE-EFD5DE1770E4" name="T_SM_CONTAGIO_T_SM_PESSOA_FK">
+<ind_PK_UK id="772D8A45-49B6-CE15-6BEE-EFD5DE1770E4" name="T_SM_CONTAG_T_SM_PES_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>19459440-7757-9638-EBE6-34CD43AE959F</generatorID>
@@ -88,7 +104,7 @@
 <colUsage columnID="606716B9-CAD3-18D9-4E3C-C0CA82C807C5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="245041DC-0C52-28E3-8517-6A37E4DC9AB5" name="T_SM_CONTAGIO_T_SM_DOENCA_FK">
+<ind_PK_UK id="245041DC-0C52-28E3-8517-6A37E4DC9AB5" name="T_SM_CONTAG_T_SM_DOENCA_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>D557E7C3-58B1-8F24-B4A6-8A2D1F2CA348</generatorID>
@@ -97,6 +113,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7418F26D-F130-BA6B-D233-4B4525CECB96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1861B3F-3E93-AF55-8BBF-C65C23F0AA58" name="T_SM_CONTAG_T_SM_GRAV_FK">
+<createdBy>GSever</createdBy>
+<createdTime>2022-06-06 22:38:38 UTC</createdTime>
+<generatorID>5CF0D922-BF52-7057-E9C5-7AA9D38913E7</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="920C1863-F889-A51D-4DA0-4A95673A259C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

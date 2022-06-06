@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="temv4" directorySegmentName="seg_0" id="63C8E97F-57E2-6436-81C2-5BC8BCEC4962">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T SM REGIAO T SM PAIS FK" directorySegmentName="seg_0" id="63C8E97F-57E2-6436-81C2-5BC8BCEC4962">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 20:14:43 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
-<item key="227549A3-3AAF-E8DE-C4D7-37F5E4024A96" value="true"/>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
 </engineerTo>
 <sourcePk>3B8C9D92-7C37-2E3F-8029-D2011CA446BD</sourcePk>
 <identifying>false</identifying>

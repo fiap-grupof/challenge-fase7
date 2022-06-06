@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D448160-6A8A-0106-99FD-8DEC4E6D9BCA" containerWithKeyObject="F2665DC0-AD5B-B537-FB88-2EEAFCD96F2F" localFKIndex="64147C39-7299-257E-CA66-B7D1BB08E66C" name="T_SM_PESSOA_VAC_T_SM_VANICA_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D448160-6A8A-0106-99FD-8DEC4E6D9BCA" containerWithKeyObject="F2665DC0-AD5B-B537-FB88-2EEAFCD96F2F" localFKIndex="64147C39-7299-257E-CA66-B7D1BB08E66C" name="T_SM_PES_VAC_T_SM_VAC_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>543F3785-39F8-5577-8A63-25CDEF486128</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
-<referredTableLongName>T_SM_VANICA</referredTableLongName>
+<referredTableLongName>T_SM_VACINA</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>3812AF22-9816-1251-D683-A6A498DF44A0</referredTableID>
 <keyObject>EA424AF0-2A26-B04E-1650-30AD57D9CB34</keyObject>

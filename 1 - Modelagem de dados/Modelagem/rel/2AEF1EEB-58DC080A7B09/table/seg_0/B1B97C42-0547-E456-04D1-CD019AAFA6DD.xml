@@ -32,6 +32,19 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="bl_vacina" id="4A6FDA92-AF6A-68BD-C6A4-E071ECF0AF7F">
+<createdBy>GSever</createdBy>
+<createdTime>2022-06-06 22:38:38 UTC</createdTime>
+<generatorID>E3D4C543-4297-2296-2401-77A89DA07856</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="31E30EAA-2AE4-1D35-2471-F0ACABA405F3" name="T_SM_DOENCA_PK">

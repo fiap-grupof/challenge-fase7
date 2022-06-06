@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="temv6" directorySegmentName="seg_0" id="543F3785-39F8-5577-8A63-25CDEF486128">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T SM PESSOA VAC T SM VANICA FK" directorySegmentName="seg_0" id="543F3785-39F8-5577-8A63-25CDEF486128">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:11:33 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>

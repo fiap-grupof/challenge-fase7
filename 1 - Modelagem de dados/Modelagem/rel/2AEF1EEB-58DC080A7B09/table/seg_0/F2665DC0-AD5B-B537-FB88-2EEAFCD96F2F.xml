@@ -36,7 +36,7 @@
 <colAssociation fkAssociation="3484F396-C999-3CE5-485D-6D419CAA7FBF" referredColumn="A6C53F54-4C8B-62FB-BC9F-5EC9AF92BA19"/>
 </associations>
 </Column>
-<Column name="T_SM_VANICA_cd_vacina" id="04AE1BF8-7873-8B24-B733-641C47311CAA">
+<Column name="T_SM_VACINA_cd_vacina" id="04AE1BF8-7873-8B24-B733-641C47311CAA">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>2AA3DF29-A1F2-D51D-0FA9-739BDACFA24A</generatorID>
@@ -45,7 +45,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -66,7 +66,7 @@
 <colUsage columnID="BF63FA00-0F11-0050-C07F-629B3A6E5703"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="46521E51-B7DA-131B-FD3C-C8B251948A3D" name="T_SM_PESSOA_VAC_T_SM_PESSOA_FK">
+<ind_PK_UK id="46521E51-B7DA-131B-FD3C-C8B251948A3D" name="T_SM_PES_VAC_T_SM_PES_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>E2F83856-D62C-A046-63CD-2F40CF685E66</generatorID>
@@ -77,7 +77,7 @@
 <colUsage columnID="C59F450E-8EEA-BEE7-8317-21B5966F53A0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="64147C39-7299-257E-CA66-B7D1BB08E66C" name="T_SM_PESSOA_VAC_T_SM_VANICA_FK">
+<ind_PK_UK id="64147C39-7299-257E-CA66-B7D1BB08E66C" name="T_SM_PES_VAC_T_SM_VAC_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>543F3785-39F8-5577-8A63-25CDEF486128</generatorID>

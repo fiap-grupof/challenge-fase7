@@ -73,7 +73,7 @@
 <colUsage columnID="F467F871-684E-446D-FCD0-3CCD9095CC6D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A5AD7FA2-A082-10D0-D696-1AD63D3A7F5C" name="T_SM_IDH_T_SM_REGIAO_FK">
+<ind_PK_UK id="A5AD7FA2-A082-10D0-D696-1AD63D3A7F5C" name="T_SM_IDH_T_SM_REG_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>C2815058-52BE-0FB2-5344-3C5DE9E5DFC2</generatorID>

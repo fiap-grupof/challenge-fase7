@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -75,7 +75,7 @@
 <colUsage columnID="DB7D31D9-EA39-C1BA-7E4F-90E09E2E15A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CD5C9CA0-5762-8D03-003B-A7C551A14F88" name="T_SM_CIDADE_T_SM_ESTADO_FK">
+<ind_PK_UK id="CD5C9CA0-5762-8D03-003B-A7C551A14F88" name="T_SM_CID_T_SM_EST_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>D26AA61D-01DE-0029-6758-FCA65466284D</generatorID>

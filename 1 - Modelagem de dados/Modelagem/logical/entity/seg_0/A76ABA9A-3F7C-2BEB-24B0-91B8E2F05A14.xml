@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A76ABA9A-3F7C-2BEB-24B0-91B8E2F05A14" name="T_SM_REGIAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A76ABA9A-3F7C-2BEB-24B0-91B8E2F05A14" name="T SM REGIAO">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:35:40 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_regiao" id="2B2DF0EE-B3C1-3ABB-6351-053A760CA82A">
+<Attribute name="cd regiao" id="2B2DF0EE-B3C1-3ABB-6351-053A760CA82A">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:37:24 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_pais" id="5E04F198-7839-CDF0-D040-C49DE8402844">
+<Attribute name="T SM PAIS cd pais" id="5E04F198-7839-CDF0-D040-C49DE8402844">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 20:14:43 UTC</createdTime>
 <generatorID>63C8E97F-57E2-6436-81C2-5BC8BCEC4962</generatorID>
@@ -43,7 +43,7 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_regiao" id="28CD3774-ABAD-0268-D5BA-D819F083340A">
+<Attribute name="nm regiao" id="28CD3774-ABAD-0268-D5BA-D819F083340A">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:37:39 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
@@ -58,12 +58,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="33841239-CE2E-07D6-DE48-8A2C31730137" name="T_SM_REGIAO PK">
+<identifier id="33841239-CE2E-07D6-DE48-8A2C31730137" name="T_SM_REGIAO_PK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:37:31 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>2B2DF0EE-B3C1-3ABB-6351-053A760CA82A</newElementsIDs>

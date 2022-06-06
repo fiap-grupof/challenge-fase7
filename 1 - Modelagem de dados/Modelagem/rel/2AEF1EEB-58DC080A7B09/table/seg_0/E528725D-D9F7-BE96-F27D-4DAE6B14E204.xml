@@ -28,15 +28,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="30328D38-D709-CB75-CE4B-E5AADBBFC666" referredColumn="DB7D31D9-EA39-C1BA-7E4F-90E09E2E15A4"/>
-</associations>
 </Column>
-<Column name="T_SM_ESCOLAR_cd_escolaridade" id="4FD301A7-5F06-934D-7EB0-6D3C9FB57409">
+<Column name="T_SM_ESCOL_cd_escol" id="4FD301A7-5F06-934D-7EB0-6D3C9FB57409">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>C1581621-65AF-844C-74D5-D270EBEAFA54</generatorID>
@@ -44,11 +39,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
+<colAssociation fkAssociation="30328D38-D709-CB75-CE4B-E5AADBBFC666" referredColumn="DB7D31D9-EA39-C1BA-7E4F-90E09E2E15A4"/>
 <colAssociation fkAssociation="6FEC8122-4609-D3BD-7F83-A48A133DB2DE" referredColumn="46A003BB-9ACA-DC48-BFF7-9D044A01AF15"/>
 </associations>
 </Column>
@@ -127,7 +123,7 @@
 <colUsage columnID="A6C53F54-4C8B-62FB-BC9F-5EC9AF92BA19"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EAAD9587-BD13-4384-F00C-A39460CE190A" name="T_SM_PESSOA_T_SM_CIDADE_FK">
+<ind_PK_UK id="EAAD9587-BD13-4384-F00C-A39460CE190A" name="T_SM_PES_T_SM_CID_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 21:28:37 UTC</createdTime>
 <generatorID>EEBF5387-03B1-6108-0309-2CB7A95E7B2C</generatorID>
@@ -135,10 +131,10 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A2CE05AF-267B-7111-642B-86F592780123"/>
+<colUsage columnID="4FD301A7-5F06-934D-7EB0-6D3C9FB57409"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F65E6B71-BBDC-96E8-8FA5-3DD00122314D" name="T_SM_PESSOA_T_SM_ESCOLAR_FK">
+<ind_PK_UK id="F65E6B71-BBDC-96E8-8FA5-3DD00122314D" name="T_SM_PES_T_SM_ESCOL_FK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:25:31 UTC</createdTime>
 <generatorID>9C5BFBA5-81A4-DA2A-5389-795021CA7B60</generatorID>
