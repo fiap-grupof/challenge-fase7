@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="817D4F96-CDD0-3BD9-D9E0-BD9BCCB79929" name="T SM ESTADO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="817D4F96-CDD0-3BD9-D9E0-BD9BCCB79929" name="T_SM_ESTADO">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:30:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,13 +15,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd estado" id="A8EE50DB-992A-01A8-E89C-0BCC38BA7F4A">
+<Attribute name="id_estado" id="A8EE50DB-992A-01A8-E89C-0BCC38BA7F4A">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:30:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <importedID>4ABBF09F-1A36-7054-5DDB-8CD11B368367</importedID>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,28 +29,43 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd regiao" id="605818AE-9F52-E654-FA6F-F1CB30109627">
+<Attribute name="id_regiao" id="605818AE-9F52-E654-FA6F-F1CB30109627">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:37:35 UTC</createdTime>
 <generatorID>FCC5FF65-DF5E-0A67-C212-BB047A207461</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <referedAttribute>2B2DF0EE-B3C1-3ABB-6351-053A760CA82A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm estado" id="C2FE6FD2-3209-71C6-EC81-D5500ADD5A5E">
+<Attribute name="id_idh" id="E6252937-5694-C695-1237-B93597A1D002">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 20:50:16 UTC</createdTime>
+<generatorID>12179DCE-CE3C-6E50-382E-4EF645CFA822</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<referedAttribute>DC904966-5B7B-28B1-77C9-DA57BC7C6E5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="C2FE6FD2-3209-71C6-EC81-D5500ADD5A5E">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:30:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <importedID>7E73984D-3857-50DF-F9D3-87A8A004A719</importedID>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,13 +73,13 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds abreviacao" id="DD020C8D-1EBD-1041-24B4-D9229ABB0A08">
+<Attribute name="ds_abreviacao" id="DD020C8D-1EBD-1041-24B4-D9229ABB0A08">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:30:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <importedID>4FAB20DE-384C-08EE-0B20-C2DB54D58204</importedID>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,9 +93,8 @@
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:30:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="false"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

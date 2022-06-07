@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98872700-0661-BD02-487C-D18907CC0291" name="T SM DOENCA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98872700-0661-BD02-487C-D18907CC0291" name="T_SM_DOENCA">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:29:05 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd doenca" id="BA75ED8E-74EF-F7A2-E3A0-12252D69E072">
+<Attribute name="id_doenca" id="BA75ED8E-74EF-F7A2-E3A0-12252D69E072">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:50:19 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,12 +28,12 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm doenca" id="889BB7F3-A375-EE0D-0CCC-92C3AD801F1B">
+<Attribute name="nm_doenca" id="889BB7F3-A375-EE0D-0CCC-92C3AD801F1B">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:51:30 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,12 +46,14 @@
 <createdTime>2022-05-28 21:38:12 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -59,9 +61,8 @@
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:50:36 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="false"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>BA75ED8E-74EF-F7A2-E3A0-12252D69E072</newElementsIDs>

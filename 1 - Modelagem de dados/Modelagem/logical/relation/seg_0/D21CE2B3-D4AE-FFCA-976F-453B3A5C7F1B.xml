@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T SM VACINA T SM DOENCA FK" directorySegmentName="seg_0" id="D21CE2B3-D4AE-FFCA-976F-453B3A5C7F1B">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_SM_VACINA_T_SM_DOENCA_FK" directorySegmentName="seg_0" id="D21CE2B3-D4AE-FFCA-976F-453B3A5C7F1B">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:05:21 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
-<item key="2AEF1EEB-2FB4-2A2C-A64A-58DC080A7B09" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <sourcePk>F6560921-D9FF-6019-CA5B-0686982318F9</sourcePk>
 <identifying>false</identifying>
@@ -15,5 +15,5 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>5E60002F-2614-78F1-A240-3D7A7B7324B7</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 </Relation>

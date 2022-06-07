@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_SM_IDH_T_SM_CIDADE" directorySegmentName="seg_0" id="E6D65B14-F131-8F0D-40CE-070265871037">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 20:49:29 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<sourcePk>BBA4EC9E-0B8E-F8F6-7A81-4D1921290F9D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3ECD9E7-303F-E44C-6A3D-1C06CC2903D7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>32395A9C-3056-DDA0-AC42-8FC6605226CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

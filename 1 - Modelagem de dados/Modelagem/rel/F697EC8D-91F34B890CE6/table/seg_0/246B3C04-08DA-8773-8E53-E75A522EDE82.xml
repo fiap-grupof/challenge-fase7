@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="246B3C04-08DA-8773-8E53-E75A522EDE82" name="T_SM_ESCOLA">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 21:01:15 UTC</createdTime>
+<generatorID>C4D429E2-DD5B-F904-2D39-E7E08732BED5</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<ordsAlias>t_sm_escolaridade</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escolar" id="1B589582-78EE-4888-7E39-52B29DE8D864">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 21:01:15 UTC</createdTime>
+<generatorID>DD0EEA1F-D97D-3B35-7F39-7E7A2714702E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_escolar" id="7C3521BF-AD95-56A7-76BD-6F5FB8BE222C">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 21:01:15 UTC</createdTime>
+<generatorID>5D57E26E-B46A-C663-DAD7-C88309F55360</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7339DBAD-5583-A877-5FAD-2727C75FED31" name="T_SM_ESCOLAR_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 21:01:15 UTC</createdTime>
+<generatorID>F430DC06-8236-2763-931A-A38BED301AF5</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B589582-78EE-4888-7E39-52B29DE8D864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

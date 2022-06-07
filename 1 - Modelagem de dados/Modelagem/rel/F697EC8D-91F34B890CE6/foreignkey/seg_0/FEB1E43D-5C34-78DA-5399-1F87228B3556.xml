@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FEB1E43D-5C34-78DA-5399-1F87228B3556" containerWithKeyObject="C2010927-7C2D-E761-E843-A06420547D8F" localFKIndex="E20ACC17-93F7-55C9-39C4-9B12BAED1DDE" name="T_SM_PESSOA_VAC_T_SM_VAC_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 21:01:15 UTC</createdTime>
+<generatorID>543F3785-39F8-5577-8A63-25CDEF486128</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>T_SM_VACINA</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>CC779139-E148-CF7E-AA0F-27C789AEFF35</referredTableID>
+<keyObject>4C538762-D133-FF46-BC49-FD46DDA2153D</keyObject>
+<referredKeyID>4C538762-D133-FF46-BC49-FD46DDA2153D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_vacina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
