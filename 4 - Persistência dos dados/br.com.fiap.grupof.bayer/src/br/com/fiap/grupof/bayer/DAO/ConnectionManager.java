@@ -26,8 +26,6 @@ public class ConnectionManager {
 				Class.forName("oracle.jdbc.OracleDriver");
 				conn = DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl", "RM92351", "290981");
 				System.out.println("Conexão Singleton estabelecida com sucesso!");
-			} else {
-				System.out.println("Utilizando a conexão Singleton");
 			}
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();

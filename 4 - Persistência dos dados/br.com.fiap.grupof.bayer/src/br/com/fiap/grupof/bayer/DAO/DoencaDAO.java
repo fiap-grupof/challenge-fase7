@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import br.com.fiap.grupof.bayer.entities.Doenca;
 import br.com.fiap.grupof.bayer.exceptions.ConnectionException;
 import br.com.fiap.grupof.bayer.exceptions.DataNotFoundException;
-import br.com.fiap.grupof.bayer.interfaces.RegistroDAOInterface;
+import br.com.fiap.grupof.bayer.interfaces.DAOInterface;
 
-public class DoencaDAO implements RegistroDAOInterface<Doenca> {
+public class DoencaDAO implements DAOInterface<Doenca> {
 
 	@Override
 	public boolean insert(Doenca registro) throws ConnectionException, DataNotFoundException, SQLException {

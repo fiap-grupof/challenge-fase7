@@ -43,7 +43,7 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_escolaridade" id="C1581621-65AF-844C-74D5-D270EBEAFA54">
+<Attribute name="id_escola" id="C1581621-65AF-844C-74D5-D270EBEAFA54">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 22:44:51 UTC</createdTime>
 <generatorID>9C5BFBA5-81A4-DA2A-5389-795021CA7B60</generatorID>
@@ -130,8 +130,9 @@
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:43:58 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>EA0D788D-2286-E80C-FF6A-52F43744B653</newElementsIDs>

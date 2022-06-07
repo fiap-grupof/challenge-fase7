@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1677BCB4-43CB-16B2-64B5-F8FCCAC5A1D5" name="T_SM_RELACAO_IDH">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>C5380737-BAFB-8CEC-A417-FE6005C72D58</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_relacao_idh" id="E1EB690F-B8B2-0B6B-FE1A-04FFA80F022A">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>7F9A3383-39BF-D4C9-0CEF-371F45949DF4</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SM_IDH_id_idh" id="747BCE08-7D9B-0476-4AE2-1B31A552498B">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>BFE97FD1-61B9-CBDD-AF59-9F9180BAB9AC</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52E7A0C2-4C45-7399-4733-853449AF5651" referredColumn="80C25C52-A815-3EF3-9B56-95135559DFD9"/>
+</associations>
+</Column>
+<Column name="T_SM_CIDADE_id_cidade" id="F0A29988-33BB-3AD5-3046-4FEEC51D3ADD">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>C5188741-46AD-DC46-F00B-BBD7623DB7E0</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E15D3653-0027-FCA6-4F66-5B2B64D56279" referredColumn="05550745-159B-5C65-288D-BC323B94D2E7"/>
+</associations>
+</Column>
+<Column name="T_SM_ESTADO_id_estado" id="389AF657-077E-B533-7435-2212B2F16BD7">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>3168A739-A89C-C865-F9BA-EB0BC9A48B26</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CFBD9AC-6AF2-FAB0-929E-AC49081C13A4" referredColumn="23378346-F774-6D3B-C462-20B49EDC2CA2"/>
+</associations>
+</Column>
+<Column name="T_SM_REGIAO_id_regiao" id="76501D93-7ABB-C7CD-EC62-B4FABDD020A8">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>1CDC5D0D-33C9-D61E-645B-29DD38C097EB</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5490BB9F-6E1B-8B35-9A88-D2B0A0019B61" referredColumn="87B23D37-6BC4-0D4C-402E-245452D270A1"/>
+</associations>
+</Column>
+<Column name="T_SM_PAIS_id_pais" id="EBCD04CF-8BB0-2E99-8660-849D295DFF8E">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>00BD9218-3A68-36CB-CAA5-0FAB631F334E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1D5C54A-D8B4-BC26-B960-6974E42AE256" referredColumn="D184AE1D-2249-476D-5747-A81A9DC21108"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24EBDD0E-1A33-696B-9629-C19BB15B12B9" name="T_SM_RELACAO_IDH_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>FB629DDB-569C-3EB9-2749-3834DA2FC2D5</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1EB690F-B8B2-0B6B-FE1A-04FFA80F022A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ACF07A7-4E5D-B8C3-9B0E-BE56A0B1A926" name="T_SM_REL_IDH_T_SM_IDH_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>87D139A4-7FBA-1F6D-99E2-B3E3B4AF279D</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="747BCE08-7D9B-0476-4AE2-1B31A552498B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7203347-2845-EEBB-4C30-8EE0E1560667" name="T_SM_REL_IDH_T_SM_CID_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>92B52C29-5F7B-EC60-B030-22086CC6B52B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A29988-33BB-3AD5-3046-4FEEC51D3ADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDCC7338-4CF9-0A1C-B114-497233345560" name="T_SM_REL_IDH_T_SM_EST_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>CE7A2324-291B-0346-22D8-F7E851A043D1</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="389AF657-077E-B533-7435-2212B2F16BD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16A8D3EA-0D75-F361-144B-02CCBCD02B31" name="T_SM_REL_IDH_T_SM_REG_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>67CC6293-11FA-85AC-9E0D-5D5D95B80985</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76501D93-7ABB-C7CD-EC62-B4FABDD020A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C25F9C5B-B0A1-D154-30D6-30EF8B778E64" name="T_SM_REL_IDH_T_SM_PAIS_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>CC312AA4-7BC0-82C6-0BDF-AE8F6A7676DE</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBCD04CF-8BB0-2E99-8660-849D295DFF8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

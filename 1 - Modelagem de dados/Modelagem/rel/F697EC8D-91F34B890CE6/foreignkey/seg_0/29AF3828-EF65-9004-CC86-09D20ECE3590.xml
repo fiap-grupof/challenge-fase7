@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29AF3828-EF65-9004-CC86-09D20ECE3590" containerWithKeyObject="8A201B82-13BC-E6A1-CCB0-E4EF143822EF" localFKIndex="8557DF3C-C33D-CD66-0931-5B139209ECCF" name="T_SM_CONTAGIO_T_SM_DOE_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>D557E7C3-58B1-8F24-B4A6-8A2D1F2CA348</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>T_SM_DOENCA</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>7AAAA6E7-89F9-1918-BC2F-470DEF287415</referredTableID>
+<keyObject>0438E298-A3E6-8F94-D288-E85B567AB75A</keyObject>
+<referredKeyID>0438E298-A3E6-8F94-D288-E85B567AB75A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_doenca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -29,21 +29,6 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_idh" id="B3E4D3C3-1490-EFC2-0310-C66435D3B1F8">
-<createdBy>rennecastrucci</createdBy>
-<createdTime>2022-06-07 20:50:42 UTC</createdTime>
-<generatorID>3695066C-F579-A22A-AA69-70046B078286</generatorID>
-<ownerDesignName>Modelagem</ownerDesignName>
-<engineerTo>
-<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
-</engineerTo>
-<referedAttribute>DC904966-5B7B-28B1-77C9-DA57BC7C6E5E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nm_pais" id="740C0459-DB3B-85C9-80E7-DC34F8BF07A1">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:30:50 UTC</createdTime>
@@ -109,8 +94,9 @@
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 19:30:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

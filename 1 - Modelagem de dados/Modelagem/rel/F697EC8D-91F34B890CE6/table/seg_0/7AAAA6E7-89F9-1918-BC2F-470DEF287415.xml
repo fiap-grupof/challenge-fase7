@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AAAA6E7-89F9-1918-BC2F-470DEF287415" name="T_SM_DOENCA">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>98872700-0661-BD02-487C-D18907CC0291</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_doenca" id="FA5FE6E5-4A38-6910-A190-EEE88A843CC0">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>BA75ED8E-74EF-F7A2-E3A0-12252D69E072</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_doenca" id="3671C9E5-6E82-26FE-8486-FA9FC58E4748">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>889BB7F3-A375-EE0D-0CCC-92C3AD801F1B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bl_vacina" id="7F882E21-D76F-E45A-D84F-D2AE53A25EBA">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>E3D4C543-4297-2296-2401-77A89DA07856</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0438E298-A3E6-8F94-D288-E85B567AB75A" name="T_SM_DOENCA_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>F6560921-D9FF-6019-CA5B-0686982318F9</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA5FE6E5-4A38-6910-A190-EEE88A843CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

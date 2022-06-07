@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7906D6ED-1B5C-1E3C-B542-14C613D9CAE8" containerWithKeyObject="BFDF7692-4E0D-43F2-556B-E0203BA141AF" localFKIndex="F59E3BEA-7923-446E-B037-243487734762" name="T_SM_VACINA_T_SM_DOENCA_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:03:58 UTC</createdTime>
+<generatorID>D21CE2B3-D4AE-FFCA-976F-453B3A5C7F1B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>T_SM_DOENCA</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>7AAAA6E7-89F9-1918-BC2F-470DEF287415</referredTableID>
+<keyObject>0438E298-A3E6-8F94-D288-E85B567AB75A</keyObject>
+<referredKeyID>0438E298-A3E6-8F94-D288-E85B567AB75A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_doenca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
