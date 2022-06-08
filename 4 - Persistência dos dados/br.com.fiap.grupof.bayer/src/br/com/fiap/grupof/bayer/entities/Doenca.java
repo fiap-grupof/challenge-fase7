@@ -17,6 +17,10 @@ public class Doenca {
 		this.vacina = vacina;
 	}
 	
+	public Doenca(int id) {
+		this.id = id;
+	}
+	
 	public int getId() {
 		return id;
 	}
