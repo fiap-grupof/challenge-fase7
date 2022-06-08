@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_SM_SEXO_T_SM_CASO" directorySegmentName="seg_0" id="5AC51BB4-D0FE-78EE-83E4-1046082FA872">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:19:52 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<sourcePk>F539575C-4DFF-329C-F77A-98F4FFC7A2CE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>91A541E6-2C62-DE51-94BD-99118A86206C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE5B8D53-D20A-244E-FCAD-594AF784E1E6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

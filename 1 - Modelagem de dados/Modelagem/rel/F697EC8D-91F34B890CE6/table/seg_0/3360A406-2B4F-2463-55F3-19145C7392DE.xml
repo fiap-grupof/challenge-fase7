@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3360A406-2B4F-2463-55F3-19145C7392DE" name="T_SM_CASO">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>FE5B8D53-D20A-244E-FCAD-594AF784E1E6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_caso" id="33C77808-D395-8562-372D-6E4DC517ACAA">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>A0E644D7-617C-3086-ECC4-32581A6CBAAC</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SM_SEXO_id_sexo" id="D9D39784-9A28-9582-86EB-F4F77C0B10D4">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>72AFF8CF-7005-2AAF-31C1-B5A4692425B6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="439A7045-4AA7-C16C-BDF5-3D1BC863B943" referredColumn="FC6DA8C1-2A45-5A6B-2BE8-E9D9E2E51798"/>
+</associations>
+</Column>
+<Column name="dt_nasc" id="79385BEA-70EA-3684-1BAA-8A2434AC874A">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>B18E8E1C-0351-A01A-AD06-3CFAA811308C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SM_ENSINO_id_ensino" id="68E7C7FF-9074-75B0-4E39-11BDDF72B6AF">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>27D7D749-5395-C663-64BF-CA9FDE7448C1</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8D5ECDB-D50C-151D-38FB-0D84533492B5" referredColumn="264875E4-A20B-4D26-E598-699EC65682F9"/>
+</associations>
+</Column>
+<Column name="dt_caso" id="55A1E6EF-11FF-EA56-1945-56A91D7486A4">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>8DDEBEF4-96DE-1DB7-9711-EA66A2C38871</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SM_CIDADE_id_cidade" id="A5E8E6F5-51D4-1D23-D216-1DEA60D212E5">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>412B8DBA-2C9B-A62E-3AD2-C4CD0361D0F2</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93C658D2-5FAA-6558-19A1-EE2185F1A106" referredColumn="CD6D66DD-8816-EFC9-F3AD-24EB31D9B94F"/>
+</associations>
+</Column>
+<Column name="T_SM_DOENCA_id_doenca" id="2550EF36-2FC2-4443-7FE8-97B318D19935">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>D9DDFBD5-A585-B474-555F-1BC76EE15219</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6558926-8B30-5F43-841F-72DBA95C1394" referredColumn="7298E9A6-A68A-045C-8706-55E19FF61BD4"/>
+</associations>
+</Column>
+<Column name="nr_renda" id="7AC985DC-FE8F-0C55-1EFE-46072E303316">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>D650E5E1-3028-AE3C-C738-60E1E1316595</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9BC9350-2D5F-03C2-A3C4-23055DA6F697" name="T_SM_CASO_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>D661F125-E34D-57C8-497D-96135851BC41</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C77808-D395-8562-372D-6E4DC517ACAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B8FFB43-8F4A-BAAB-3270-29428F050C21" name="T_SM_CASO_T_SM_CIDADE_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>315B0BB8-BE4B-63E4-9111-8EB9BB85FF48</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E8E6F5-51D4-1D23-D216-1DEA60D212E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1A5713E-8922-3A27-330B-B6B9D77A2C5A" name="T_SM_CASO_T_SM_DOENCA_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>E2682AA2-9391-9342-29FE-FEBB00A0F4EB</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2550EF36-2FC2-4443-7FE8-97B318D19935"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E07A016C-BBEA-347D-CE81-E2DFD5864B23" name="T_SM_CASO_T_SM_ENSINO_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>5344DDAE-7182-07DA-6875-71FF70673C00</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68E7C7FF-9074-75B0-4E39-11BDDF72B6AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A49797F-77BA-5289-F164-4570A8F8B3B2" name="T_SM_CASO_T_SM_SEXO_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>5AC51BB4-D0FE-78EE-83E4-1046082FA872</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9D39784-9A28-9582-86EB-F4F77C0B10D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

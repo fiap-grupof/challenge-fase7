@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B6D987A-BE9E-C6D4-5147-EC1F916D5F89" name="T_SM_PESSOA_VACINA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B6D987A-BE9E-C6D4-5147-EC1F916D5F89" name="T_SM_CASO_VACINA">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:10:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
@@ -28,21 +28,6 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pessoa" id="85ED52F8-4398-9765-36E1-CE7C21622C49">
-<createdBy>rennecastrucci</createdBy>
-<createdTime>2022-05-27 00:11:16 UTC</createdTime>
-<generatorID>E2F83856-D62C-A046-63CD-2F40CF685E66</generatorID>
-<ownerDesignName>Modelagem</ownerDesignName>
-<engineerTo>
-<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
-</engineerTo>
-<referedAttribute>EA0D788D-2286-E80C-FF6A-52F43744B653</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_vacina" id="EC25EFBA-98F9-4A5C-BB5A-2B8D01A9BFF0">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-06-07 19:59:29 UTC</createdTime>
@@ -57,6 +42,51 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_caso" id="FF442BC9-FEDC-A286-A3C6-31C1987DAA1B">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:10:28 UTC</createdTime>
+<generatorID>B316B0C0-B9A6-CCEC-4F2A-0CA5ACC87EB7</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<referedAttribute>A0E644D7-617C-3086-ECC4-32581A6CBAAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_obito" id="8AEA6C60-C254-806B-A1F4-213926AAA34D">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:33:03 UTC</createdTime>
+<generatorID>7081526F-E9C2-AE24-C3BD-47AE3C8D2B34</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<referedAttribute>7786408C-A80F-6FE6-10E2-E03D00783195</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_obito1" id="1AC0F87A-E58E-3AC9-1999-92CC08AD878A">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:33:03 UTC</createdTime>
+<generatorID>7081526F-E9C2-AE24-C3BD-47AE3C8D2B34</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<referedAttribute>D1582194-E818-5946-06EC-79B137AE3080</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

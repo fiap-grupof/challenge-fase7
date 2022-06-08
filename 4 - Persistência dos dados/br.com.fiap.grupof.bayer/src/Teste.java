@@ -2,58 +2,47 @@ import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import br.com.fiap.grupof.bayer.DAO.PessoaDAO;
-import br.com.fiap.grupof.bayer.entities.Cidade;
-import br.com.fiap.grupof.bayer.entities.Contagio;
+import br.com.fiap.grupof.bayer.DAO.CasoDAO;
+import br.com.fiap.grupof.bayer.entities.Caso;
 import br.com.fiap.grupof.bayer.entities.Doenca;
-import br.com.fiap.grupof.bayer.entities.Escolaridade;
-import br.com.fiap.grupof.bayer.entities.Localidade;
-import br.com.fiap.grupof.bayer.entities.Pessoa;
+import br.com.fiap.grupof.bayer.entities.Ensino;
+import br.com.fiap.grupof.bayer.entities.Local;
+import br.com.fiap.grupof.bayer.entities.Sexo;
+import br.com.fiap.grupof.bayer.entities.Vacina;
+import br.com.fiap.grupof.bayer.exceptions.ConnectionException;
 
 public class Teste {
 
-	public static void main(String[] args) throws ParseException {
-	
-		// CIDADE
-		Cidade cidade = new Cidade();
-		cidade.setId(5270);
+	public static void main(String[] args) throws ParseException, ConnectionException, SQLException {
 		
-		// LOCALIDADE
-		Localidade localidade = new Localidade();
+		// DOENCA DENGUE
+		Doenca doenca = new Doenca(3, "Zyka", true);
 		
-		localidade.setCidade(cidade);
-		
-		// ESCOLARIDADE
-		Escolaridade escolaridade = new Escolaridade();
-		escolaridade.setId(2);
-		
-		// DOENCA
-		Doenca doenca = new Doenca();
-		doenca.setId(1);
-		
-		// CONTAGIO
-		Contagio contagio = new Contagio();
-		contagio.setData((Date) new SimpleDateFormat("dd/MM/yyyy").parse("05/06/2022"));
-		contagio.setDoenca(doenca);
-		
-		// PESSOA
-		Pessoa pessoa = new Pessoa();
-		pessoa.setNome("MARIA JOSÉ");
-		pessoa.setLocalidade(localidade);
-		pessoa.setEscolaridade(escolaridade);
-		pessoa.setRenda(1250);
-		pessoa.setRg("336547890");
-		pessoa.setCpf("98765432101");
-		pessoa.setDtNasc((Date) new SimpleDateFormat("dd/MM/yyyy").parse("15/02/1999"));
+		// CASO DE DENGUE
+		Caso caso = new Caso();
+		caso.setSexo(new Sexo(1, "Masculino"));
+		caso.setDataNasc((Date) new SimpleDateFormat("dd/MM/yyyy").parse("29/09/1989"));
+		caso.setEnsino(new Ensino(3));
+		caso.setDataCaso(new java.util.Date());
+		caso.setLocal(new Local(5270));
+		caso.setDoenca(doenca);
+		caso.setRenda(1250);
+		caso.setVacina(new Vacina(1));
 
-		// TESTE DE INSERT
-		PessoaDAO pessoaDAO = new PessoaDAO();
+		// INSERIR O CASO DE DENGUE
+		CasoDAO casoDAO = new CasoDAO();
 		try {
-			pessoaDAO.insert(pessoa);
-			System.out.println(pessoa.getNome() + " Cadastrada com sucesso!");
+		
+			if (casoDAO.insert(caso)) 
+				System.out.println("1 Caso de "+caso.getDoenca().getNome() + " foi cadastrado com sucesso!");
+			else 
+				System.out.println("Não foi possível registrar o caso!");
+		
 		} catch (SQLException e) {
 			e.printStackTrace();
-			System.out.println(pessoa.getNome() + "Erro na query");
-		}	
+		}
+		
+		// VERIFICANDO A QUANTIDADE DE CASOS DE DENGUE REGISTRADOS
+		System.out.println("Já são "+casoDAO.getDoenca(doenca) + " casos de "+doenca.getNome());
 	}
 }

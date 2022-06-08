@@ -1,39 +1,42 @@
 package br.com.fiap.grupof.bayer.entities;
 
-public class Caso {
-	
-	//atributos
-	private Doenca doenca;
+import br.com.fiap.grupof.bayer.interfaces.RegistroInterface;
 
-	//construtores
-	public Caso(Doenca doenca) {
-		super();
-		this.doenca = doenca;
+public class Caso extends Registro implements RegistroInterface {
+
+	@Override
+	public int quantidade(Pais pais) {
+		return 0;
 	}
 
-	public Caso() {
-		super();
-	}
-	
-	//metodos
-	public Doenca getDoenca() {
-		return doenca;
+	@Override
+	public int quantidade(Regiao regiao) {
+		return 0;
 	}
 
-	public void setDoenca(Doenca doenca) {
-		this.doenca = doenca;
+	@Override
+	public int quantidade(Estado estado) {
+		return 0;
 	}
 
-	public Regiao quantidadeCasos(Regiao regiao) {
-		return regiao;
+	@Override
+	public int quantidade(Cidade cidade) {
+		return 0;
 	}
-	
-	public Estado quantidadeCasos(Estado estado) {
-		return estado;
+
+	@Override
+	public int quantidade(Sexo sexo) {
+		return 0;
 	}
-	
-	public Cidade quantidadeCasos(Cidade cidade) {
-		return cidade;
+
+	@Override
+	public int quantidade(Ensino ensino) {
+		return 0;
+	}
+
+	@Override
+	public int quantidade(Doenca doenca) {
+		return 0;
 	}
 
 }

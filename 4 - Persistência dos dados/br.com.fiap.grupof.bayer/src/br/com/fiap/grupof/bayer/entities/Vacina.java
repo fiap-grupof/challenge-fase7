@@ -2,26 +2,26 @@ package br.com.fiap.grupof.bayer.entities;
 
 public class Vacina {
 	
-	//atributos
 	private int id;
+	private Doenca doenca;
 	private String nome;
 	private String laboratorio;
-	private Doenca doenca;
 	
-	//construtores
 	public Vacina() {
 		super();
 	}
 	
 	public Vacina(int id, String nome, String laboratorio, Doenca doenca) {
-		super();
 		this.id = id;
 		this.nome = nome;
 		this.laboratorio = laboratorio;
 		this.doenca = doenca;
 	}
 	
-	//metodos
+	public Vacina(int id) {
+		this.id = id;
+	}
+	
 	public int getId() {
 		return id;
 	}
@@ -53,7 +53,5 @@ public class Vacina {
 	public void setDoenca(Doenca doenca) {
 		this.doenca = doenca;
 	}
-	
-	
 
 }

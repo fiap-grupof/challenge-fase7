@@ -2,25 +2,18 @@ package br.com.fiap.grupof.bayer.entities;
 
 public class Regiao {
 
-	
-	//atributos
 	private int id;
 	private String nome;
-	private double idh;
 	
-	//construtores
 	public Regiao() {
 		super();
 	}
 	
-	public Regiao(int id, String nome, double idh) {
-		super();
+	public Regiao(int id, String nome) {
 		this.id = id;
 		this.nome = nome;
-		this.idh = idh;
 	}
 	
-	//metodos
 	public int getId() {
 		return id;
 	}
@@ -36,14 +29,5 @@ public class Regiao {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
-	public double getIdh() {
-		return idh;
-	}
-	
-	public void setIdh(double idh) {
-		this.idh = idh;
-	}
-	
 	
 }

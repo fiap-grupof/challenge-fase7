@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4D429E2-DD5B-F904-2D39-E7E08732BED5" name="T_SM_ESCOLARIDADE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4D429E2-DD5B-F904-2D39-E7E08732BED5" name="T_SM_ENSINO">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 22:43:16 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_escola" id="DD0EEA1F-D97D-3B35-7F39-7E7A2714702E">
+<Attribute name="id_ensino" id="DD0EEA1F-D97D-3B35-7F39-7E7A2714702E">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 22:43:50 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_escola" id="5D57E26E-B46A-C663-DAD7-C88309F55360">
+<Attribute name="ds_ensino" id="5D57E26E-B46A-C663-DAD7-C88309F55360">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 22:44:10 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8D5ECDB-D50C-151D-38FB-0D84533492B5" containerWithKeyObject="3360A406-2B4F-2463-55F3-19145C7392DE" localFKIndex="E07A016C-BBEA-347D-CE81-E2DFD5864B23" name="T_SM_CASO_T_SM_ENSINO_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>5344DDAE-7182-07DA-6875-71FF70673C00</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>T_SM_ENSINO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>16070D28-F01D-B11E-9C42-080EC5122E68</referredTableID>
+<keyObject>66CA1700-3FA4-1855-A71A-FE870444DA82</keyObject>
+<referredKeyID>66CA1700-3FA4-1855-A71A-FE870444DA82</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ensino</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

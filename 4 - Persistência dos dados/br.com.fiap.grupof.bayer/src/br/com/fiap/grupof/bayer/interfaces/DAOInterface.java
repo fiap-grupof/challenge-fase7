@@ -20,7 +20,7 @@ public interface DAOInterface <TipoRegistro> {
 	 * @throws ConnectionException Problema com a conexão ao banco de dados
 	 * @throws SQLException erro no acesso do banco de dados ou outros erros
 	 */
-	boolean insert(TipoRegistro registro) throws ConnectionException, DataNotFoundException, SQLException;
+	boolean insert(TipoRegistro registro) throws ConnectionException, SQLException;
 	
 	/**
 	 * Atualiza um registro
