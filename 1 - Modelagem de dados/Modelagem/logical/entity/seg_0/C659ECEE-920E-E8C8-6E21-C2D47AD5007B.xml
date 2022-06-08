@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_pessoa" id="51CFEE07-BD2F-D95B-017F-7AEAF0F96E5E">
 <createdBy>rennecastrucci</createdBy>
@@ -56,7 +56,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_gravidade" id="F88474C1-9FFD-B931-7EAE-197850E87DC6">
 <createdBy>rennecastrucci</createdBy>
@@ -71,7 +71,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_contagio" id="DAB4AC5D-1306-5870-8C8D-DB77A6B0AC18">
 <createdBy>rennecastrucci</createdBy>
@@ -87,7 +87,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="68C6D9AA-BD0A-06B9-E9BB-374309AAFE40" name="T_SM_CONTAGIO_PK">
+<identifier id="68C6D9AA-BD0A-06B9-E9BB-374309AAFE40" name="T_SM_CON_PK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-26 20:18:23 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>

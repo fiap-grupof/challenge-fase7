@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7611A6AD-889A-A38D-D734-4AB408293A74" name="T_SM_PESSOA_VACINA">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:29:44 UTC</createdTime>
+<generatorID>5B6D987A-BE9E-C6D4-5147-EC1F916D5F89</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_relacao" id="23F70D98-7DD6-1775-DE0F-E7D1B5655202">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:29:44 UTC</createdTime>
+<generatorID>44714B51-CEFB-BCCD-5539-4DA3368C5B99</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SM_PESSOA_id_pessoa" id="738527B1-636E-36A3-AC1F-6A486150F892">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:29:44 UTC</createdTime>
+<generatorID>85ED52F8-4398-9765-36E1-CE7C21622C49</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF8DECDD-E115-925E-FC1B-41BE25BB3E2A" referredColumn="5E929244-4FD9-9015-1DB5-21E731540C36"/>
+</associations>
+</Column>
+<Column name="T_SM_VACINA_id_vacina" id="4C352F56-E5D1-2584-C7D7-E5676C9CEFCE">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:29:44 UTC</createdTime>
+<generatorID>EC25EFBA-98F9-4A5C-BB5A-2B8D01A9BFF0</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51D31D9C-E593-E322-8FD5-F2FDE46B6973" referredColumn="B7CC1E49-EA51-422F-0815-26A5E8F54F79"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF784094-2516-D2AB-2BF5-866E1B166A98" name="T_SM_PESSOA_VAC_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:29:44 UTC</createdTime>
+<generatorID>308E2F2B-2E2A-0586-A32E-6ED0A8806C54</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23F70D98-7DD6-1775-DE0F-E7D1B5655202"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D016A6E-66C3-0EC8-3771-35A93E1CE6EC" name="T_SM_PESSOA_VAC_T_SM_PES_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:29:44 UTC</createdTime>
+<generatorID>E2F83856-D62C-A046-63CD-2F40CF685E66</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="738527B1-636E-36A3-AC1F-6A486150F892"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D872CEC-8BB8-A74F-652A-5D8BEAFE2840" name="T_SM_PESSOA_VAC_T_SM_VAC_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:29:44 UTC</createdTime>
+<generatorID>543F3785-39F8-5577-8A63-25CDEF486128</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C352F56-E5D1-2584-C7D7-E5676C9CEFCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

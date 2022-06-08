@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_vacina" id="C43C566C-ECFB-EA7C-E14C-7BDDAFD59CE8">
 <createdBy>rennecastrucci</createdBy>
@@ -71,7 +71,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BA1B470E-04FC-5638-AAA9-2FC66E13C01F" name="T_SM_VACINA_PK">
+<identifier id="BA1B470E-04FC-5638-AAA9-2FC66E13C01F" name="T_SM_VAC_PK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-27 00:03:15 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>
@@ -79,6 +79,7 @@
 <item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>84D616E4-D9AC-E44E-4406-1822F1048D7D</newElementsIDs>
 <usedAttributes>
 <attributeRef>84D616E4-D9AC-E44E-4406-1822F1048D7D</attributeRef>
 </usedAttributes>

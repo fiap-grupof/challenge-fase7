@@ -7,11 +7,11 @@ public class Pessoa {
 	//atributos
 	private int id;
 	private String nome;
-	private Number rg;
-	private Number cpf;
+	private String rg;
+	private String cpf;
 	private double renda;
 	private Date dtNasc;
-	private String escolaridade;
+	private Escolaridade escolaridade;
 	private Localidade localidade;
 	private ArrayList<DataVacinacao> vacinas;
 	private ArrayList<Contagio> contagio;
@@ -21,7 +21,7 @@ public class Pessoa {
 		super();
 	}
 
-	public Pessoa(int id, String nome, Number rg, Number cpf, double renda, Date dtNasc, String escolaridade,
+	public Pessoa(int id, String nome, String rg, String cpf, double renda, Date dtNasc, Escolaridade escolaridade,
 			Localidade localidade, ArrayList<DataVacinacao> vacinas, ArrayList<Contagio> contagio) {
 		super();
 		this.id = id;
@@ -54,19 +54,19 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
-	public Number getRg() {
+	public String getRg() {
 		return rg;
 	}
 
-	public void setRg(Number rg) {
+	public void setRg(String rg) {
 		this.rg = rg;
 	}
 
-	public Number getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
 
-	public void setCpf(Number cpf) {
+	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
 
@@ -86,11 +86,11 @@ public class Pessoa {
 		this.dtNasc = dtNasc;
 	}
 
-	public String getEscolaridade() {
+	public Escolaridade getEscolaridade() {
 		return escolaridade;
 	}
 
-	public void setEscolaridade(String escolaridade) {
+	public void setEscolaridade(Escolaridade escolaridade) {
 		this.escolaridade = escolaridade;
 	}
 

@@ -43,7 +43,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B9C1956B-87B7-E6B7-697E-A1294156B8BD" name="T_SM_GRAV_PK">
+<identifier id="B9C1956B-87B7-E6B7-697E-A1294156B8BD" name="T_SM_GRA_PK">
 <createdBy>rennecastrucci</createdBy>
 <createdTime>2022-05-28 20:54:41 UTC</createdTime>
 <ownerDesignName>Modelagem</ownerDesignName>

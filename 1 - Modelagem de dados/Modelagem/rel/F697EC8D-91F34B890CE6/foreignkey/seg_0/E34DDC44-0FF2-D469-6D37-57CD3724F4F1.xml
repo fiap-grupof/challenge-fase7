@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E34DDC44-0FF2-D469-6D37-57CD3724F4F1" containerWithKeyObject="58E9B2DB-77AB-291F-C208-FF7BCAC97800" localFKIndex="5B172595-1089-901C-A107-3CF9F16C00D2" name="T_SM_CONT_T_SM_GRAV_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-07 22:29:44 UTC</createdTime>
+<generatorID>5CF0D922-BF52-7057-E9C5-7AA9D38913E7</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>T_SM_GRAVIDADE</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>3165A7DE-8579-F9A1-B589-CFD447818510</referredTableID>
+<keyObject>782ABFBC-3C62-71A0-7102-8B5352D75DA9</keyObject>
+<referredKeyID>782ABFBC-3C62-71A0-7102-8B5352D75DA9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gravidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
