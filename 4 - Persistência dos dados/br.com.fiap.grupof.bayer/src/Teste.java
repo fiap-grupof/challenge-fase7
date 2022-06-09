@@ -1,6 +1,7 @@
 import java.sql.SQLException;
 import java.text.ParseException;
 import br.com.fiap.grupof.bayer.DAO.CasoDAO;
+import br.com.fiap.grupof.bayer.DAO.ObitoDAO;
 import br.com.fiap.grupof.bayer.entities.Caso;
 import br.com.fiap.grupof.bayer.entities.Doenca;
 import br.com.fiap.grupof.bayer.entities.Obito;
@@ -19,20 +20,20 @@ public class Teste {
 
 		// INSERIR UM REGISTRO DE CASO E UM DE ÓBITO
 		CasoDAO casoDAO = new CasoDAO();
-//		ObitoDAO obitoDAO = new ObitoDAO(); 
+		ObitoDAO obitoDAO = new ObitoDAO(); 
 		
-//		try {
-//			System.out.println("----------- INSERINDO UM CASO DE DOENÇA NO SISTEMA ----------- \n");
-//			casoDAO.insert(caso);
+		try {
+			System.out.println("----------- INSERINDO UM CASO DE DOENÇA NO SISTEMA ----------- \n");
+			casoDAO.insert(caso);
 			System.out.println("1 Caso de "+caso.getDoenca().getNome() + " foi cadastrado com sucesso! \n");
 			
 			System.out.println("----------- INSERINDO UM CASO DE ÓBITO NO SISTEMA ----------- \n");
-//			obitoDAO.insert(obito);
+			obitoDAO.insert(obito);
 			System.out.println("1 óbito de " + obito.getDoenca().getNome() + " foi cadastrado com sucesso! \n");
-//		
-//		} catch (SQLException e) {
-//			e.printStackTrace();
-//		}
+		
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		
 		System.out.println("----------- LISTANDO O TOTAL DE CASOS DAS DOENÇAS ----------- \n");
 		
