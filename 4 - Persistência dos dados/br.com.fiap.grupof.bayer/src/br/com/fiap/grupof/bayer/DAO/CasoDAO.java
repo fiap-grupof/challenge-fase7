@@ -48,7 +48,7 @@ public class CasoDAO implements DAOInterface<Caso> {
 		return false;
 	}
 	
-	public int getDoenca(Doenca doenca) throws SQLException {
+	public int getCasosDoenca(Doenca doenca) throws SQLException {
 		try {
 			String sql = "SELECT COUNT(*) CASOS FROM T_SM_CASO WHERE T_SM_DOENCA_ID_DOENCA = ?";
 			

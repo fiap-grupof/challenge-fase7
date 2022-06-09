@@ -10,8 +10,8 @@ import br.com.fiap.grupof.bayer.entities.Obito;
 import br.com.fiap.grupof.bayer.entities.Sexo;
 
 public class ObitoInstance {
-	public static Obito getObitoInstance(int idDoenca) {
-		Doenca doenca = DoencaInstance.getDoencaInstance(idDoenca);
+	
+	public static Obito getObitoInstance(Doenca doenca) {
 		Obito obito = new Obito();
 		
 		try {

@@ -10,11 +10,10 @@ import br.com.fiap.grupof.bayer.entities.Sexo;
 
 public class CasoInstance {	
 	
-	public static Caso getCasoInstance(int idDoenca) {
+	public static Caso getCasoInstance(Doenca doenca) {
 		Caso caso = new Caso();
 		
 		try {
-			Doenca doenca = DoencaInstance.getDoencaInstance(idDoenca);
 			// APENAS PARA TESTE ESTAMOS INSTANCIANDO UM CASO DA DOENÇA QUE SERÁ PASSADA PELA ID COM AS SEGUINTES CARACTERISTICAS
 			caso.setSexo(new Sexo(2, "Feminino"));
 			caso.setDataNasc((Date) new SimpleDateFormat("dd/MM/yyyy").parse("31/08/1999"));
