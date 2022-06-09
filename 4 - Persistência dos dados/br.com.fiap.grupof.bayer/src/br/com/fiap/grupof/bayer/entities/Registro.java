@@ -8,7 +8,7 @@ public abstract class Registro {
 	private Sexo sexo;
 	private Date dataNasc;
 	private Ensino ensino;
-	private Date dataCaso;
+	private Date data;
 	private Local local;
 	private Doenca doenca;
 	private double renda;
@@ -19,12 +19,12 @@ public abstract class Registro {
 		super();
 	}
 
-	public Registro(int id, Sexo sexo, Date dataNasc, Ensino ensino, Date dataCaso, Local local, Doenca doenca, double renda, Vacina vacina) {
+	public Registro(int id, Sexo sexo, Date dataNasc, Ensino ensino, Date data, Local local, Doenca doenca, double renda, Vacina vacina) {
 		this.id = id;
 		this.sexo = sexo;
 		this.dataNasc = dataNasc;
 		this.ensino = ensino;
-		this.dataCaso = dataCaso;
+		this.data = data;
 		this.local = local;
 		this.doenca = doenca;
 		this.renda = renda;
@@ -75,12 +75,12 @@ public abstract class Registro {
 		this.ensino = ensino;
 	}
 
-	public Date getDataCaso() {
-		return dataCaso;
+	public Date getData() {
+		return data;
 	}
 
-	public void setDataCaso(Date dataCaso) {
-		this.dataCaso = dataCaso;
+	public void setData(Date data) {
+		this.data = data;
 	}
 
 	public Local getLocal() {

@@ -1,0 +1,35 @@
+package br.com.fiap.grupof.bayer.instances;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import br.com.fiap.grupof.bayer.entities.Caso;
+import br.com.fiap.grupof.bayer.entities.Doenca;
+import br.com.fiap.grupof.bayer.entities.Ensino;
+import br.com.fiap.grupof.bayer.entities.Local;
+import br.com.fiap.grupof.bayer.entities.Sexo;
+
+public class CasosInstance {	
+	public static Caso getCasoInstance() {
+		Caso caso = new Caso();
+		
+		try {
+			Doenca doenca = DoencaInstance.getDoencaInstance();
+			// CASO DE DENGUE
+			caso.setSexo(new Sexo(2, "Feminino"));
+			caso.setDataNasc((Date) new SimpleDateFormat("dd/MM/yyyy").parse("31/08/1999"));
+			caso.setEnsino(new Ensino(2));
+			caso.setData(new java.util.Date());
+			caso.setLocal(new Local(2900));
+			caso.setDoenca(doenca);
+			caso.setRenda(2500);
+			caso.setVacina(null);
+			
+			return caso;
+		} catch (Exception e) {
+			e.getMessage();
+		}
+		
+		return caso;
+	}
+}

@@ -35,7 +35,7 @@ public class CasoDAO implements DAOInterface<Caso> {
 			stmt.setInt(1, registro.getSexo().getId());
 			stmt.setDate(2, new java.sql.Date(registro.getDataNasc().getTime()));			
 			stmt.setInt(3, registro.getEnsino().getId());
-			stmt.setDate(4, new java.sql.Date(registro.getDataCaso().getTime()));	
+			stmt.setDate(4, new java.sql.Date(registro.getData().getTime()));	
 			stmt.setInt(5, registro.getLocal().getCidade().getId());
 			stmt.setInt(6, registro.getDoenca().getId());
 			stmt.setDouble(7, registro.getRenda());
@@ -61,6 +61,33 @@ public class CasoDAO implements DAOInterface<Caso> {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		return 0;
+	}
+	
+	public int getDadosPorRegiao(int idRegiao, int idDoenca) throws SQLException {
+		String sql = "SELECT COUNT(*) CASOS "
+				+ "FROM T_SM_CASO C "
+				+ "JOIN T_SM_CIDADE CT "
+				+ "ON C.T_SM_CIDADE_ID_CIDADE = CT.ID_CIDADE "
+				+ "JOIN T_SM_ESTADO E "
+				+ "ON CT.T_SM_ESTADO_ID_ESTADO = E.ID_ESTADO "
+				+ "JOIN T_SM_REGIAO R "
+				+ "ON E.T_SM_REGIAO_ID_REGIAO = R.ID_REGIAO "
+				+ "WHERE C.T_SM_DOENCA_ID_DOENCA = ? AND R.ID_REGIAO = ?";
+		
+		try(PreparedStatement preparedStatement = dao.getConnection().prepareStatement(sql)) {
+			preparedStatement.setInt(1, idDoenca);
+			preparedStatement.setInt(2, idRegiao);
+			
+			dao.getData(preparedStatement);
+			
+			ResultSet resultSet = preparedStatement.getResultSet();
+			
+			if (resultSet.next()) {
+				return resultSet.getInt(1);
+			}
+		}
+		
 		return 0;
 	}
 
