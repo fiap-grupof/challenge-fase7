@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A76ABA9A-3F7C-2BEB-24B0-91B8E2F05A14" name="T_SM_REGIAO">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:35:40 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_regiao" id="2B2DF0EE-B3C1-3ABB-6351-053A760CA82A">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:37:24 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="5E04F198-7839-CDF0-D040-C49DE8402844">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 20:14:43 UTC</createdTime>
+<generatorID>63C8E97F-57E2-6436-81C2-5BC8BCEC4962</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<referedAttribute>6E202918-6DC1-E800-26D6-A770A785A270</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_regiao" id="28CD3774-ABAD-0268-D5BA-D819F083340A">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:37:39 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33841239-CE2E-07D6-DE48-8A2C31730137" name="T_SM_REGIAO_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:37:31 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2B2DF0EE-B3C1-3ABB-6351-053A760CA82A</newElementsIDs>
+<usedAttributes>
+<attributeRef>2B2DF0EE-B3C1-3ABB-6351-053A760CA82A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

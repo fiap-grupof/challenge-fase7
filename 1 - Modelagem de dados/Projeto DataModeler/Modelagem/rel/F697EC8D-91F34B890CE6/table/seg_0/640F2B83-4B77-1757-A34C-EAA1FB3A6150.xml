@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="640F2B83-4B77-1757-A34C-EAA1FB3A6150" name="T_SM_CIDADE">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>32395A9C-3056-DDA0-AC42-8FC6605226CD</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cidade" id="CD6D66DD-8816-EFC9-F3AD-24EB31D9B94F">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>71C00E62-475C-06D7-C99E-A959377B7E25</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SM_ESTADO_id_estado" id="DC8D1A49-D47F-FE11-7663-0B49494035A5">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>3F368DDD-9CCA-A743-5455-FF1BB59873E3</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C4FE343-1DFA-D246-8ECB-E82BCFA29B28" referredColumn="AAD0660D-F6B8-47F0-DC6F-53B06C5C4F59"/>
+</associations>
+</Column>
+<Column name="nm_cidade" id="720FEF47-65A5-61E2-587F-A4D29514D05D">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>6470FA13-08F1-1D43-05B6-A08E4FFDD709</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_agente" id="87B620A2-695E-1BDC-13B6-CBB413D22F75">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>6F0E948A-8472-514D-9B76-7D8A87E0F008</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="012EB1D8-E273-0B92-88F7-2F76393D8855" name="T_SM_CIDADE_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>D011F297-95DA-7092-959B-9E66D85144E6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD6D66DD-8816-EFC9-F3AD-24EB31D9B94F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D4948FE-3C76-6DDE-9EF4-F0ABD604B3F3" name="T_SM_CIDADE_T_SM_ESTADO_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>D26AA61D-01DE-0029-6758-FCA65466284D</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC8D1A49-D47F-FE11-7663-0B49494035A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

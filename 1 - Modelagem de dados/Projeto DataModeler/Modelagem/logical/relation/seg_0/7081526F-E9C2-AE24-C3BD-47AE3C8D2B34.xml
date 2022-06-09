@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_SM_OBITO_T_SM_CASO_VACINA" directorySegmentName="seg_0" id="7081526F-E9C2-AE24-C3BD-47AE3C8D2B34">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:33:03 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<sourcePk>C05318AE-05E1-D360-9B0B-2ED0069A63E0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA580EE2-3091-3923-E67C-3ACEA07764DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5B6D987A-BE9E-C6D4-5147-EC1F916D5F89</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

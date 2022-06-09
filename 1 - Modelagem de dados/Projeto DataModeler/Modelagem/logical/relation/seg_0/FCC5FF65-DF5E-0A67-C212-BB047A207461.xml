@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_SM_ESTADO_T_SM_REGIAO_FK" directorySegmentName="seg_0" id="FCC5FF65-DF5E-0A67-C212-BB047A207461">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:37:09 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<sourcePk>33841239-CE2E-07D6-DE48-8A2C31730137</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A76ABA9A-3F7C-2BEB-24B0-91B8E2F05A14</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>817D4F96-CDD0-3BD9-D9E0-BD9BCCB79929</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

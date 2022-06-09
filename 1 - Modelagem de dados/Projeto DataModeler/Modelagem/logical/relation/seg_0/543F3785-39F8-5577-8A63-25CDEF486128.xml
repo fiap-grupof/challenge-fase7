@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_SM_PESSOA_VAC_T_SM_VANICA_FK" directorySegmentName="seg_0" id="543F3785-39F8-5577-8A63-25CDEF486128">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-27 00:11:33 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<sourcePk>BA1B470E-04FC-5638-AAA9-2FC66E13C01F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5E60002F-2614-78F1-A240-3D7A7B7324B7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5B6D987A-BE9E-C6D4-5147-EC1F916D5F89</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

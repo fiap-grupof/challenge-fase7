@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA44408D-9879-F65E-F0B8-DBAC4E8A0444" containerWithKeyObject="63BB985E-C872-748A-BA59-338BE02B1F7A" localFKIndex="02EB6FD6-541A-8CBA-33FA-9FEEFF788DEB" name="T_SM_CASO_VAC_T_SM_OBITO_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:40:03 UTC</createdTime>
+<generatorID>7081526F-E9C2-AE24-C3BD-47AE3C8D2B34</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>T_SM_OBITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F02B5208-B68B-2BF5-9EDD-07067152F155</referredTableID>
+<keyObject>92003D68-DD66-4E80-D058-8A2BF316781B</keyObject>
+<referredKeyID>92003D68-DD66-4E80-D058-8A2BF316781B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_obito</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

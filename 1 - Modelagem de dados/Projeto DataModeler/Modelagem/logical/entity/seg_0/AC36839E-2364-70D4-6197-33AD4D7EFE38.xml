@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC36839E-2364-70D4-6197-33AD4D7EFE38" name="T_SM_PAIS">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:30:50 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pais" id="6E202918-6DC1-E800-26D6-A770A785A270">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:30:50 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<importedID>D9EA5715-36AA-4639-575C-7D6AAFA47A46</importedID>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pais" id="740C0459-DB3B-85C9-80E7-DC34F8BF07A1">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:30:50 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<importedID>F5823056-9CC3-9A52-8F63-63BEDC6C65F4</importedID>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_abreviacao" id="65306F69-BDCE-CF00-E968-1C8AE935F1B3">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:30:50 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<importedID>F90CC31B-7E2C-6625-DB7B-21914B25AB4B</importedID>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_iso_alpha3" id="6D2AF685-E675-EF16-FF78-7F8F784146DB">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:30:50 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<importedID>253CEB6D-0C45-FB93-3053-BF80A2BDF4C9</importedID>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddi" id="9E942F85-18D7-E003-C1BE-821A18CE17F6">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:30:50 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<importedID>236604DE-FC12-56B4-45E2-91E3AF3717ED</importedID>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B8C9D92-7C37-2E3F-8029-D2011CA446BD" name="T_SM_PAIS_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-05-26 19:30:50 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E202918-6DC1-E800-26D6-A770A785A270</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

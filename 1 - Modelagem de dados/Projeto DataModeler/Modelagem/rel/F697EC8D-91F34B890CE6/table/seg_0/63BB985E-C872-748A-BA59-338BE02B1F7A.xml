@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63BB985E-C872-748A-BA59-338BE02B1F7A" name="T_SM_CASO_VACINA">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>5B6D987A-BE9E-C6D4-5147-EC1F916D5F89</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_relacao" id="DD3EF780-30A8-7573-62B3-6455D97EF1A2">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>44714B51-CEFB-BCCD-5539-4DA3368C5B99</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SM_VACINA_id_vacina" id="E05621A6-D04C-D102-ECF0-6EED5377BED8">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>EC25EFBA-98F9-4A5C-BB5A-2B8D01A9BFF0</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04DE6727-30B1-98D1-B718-3CBD1923DB03" referredColumn="0E6DD43B-5C5D-6BF8-FB8C-3ED487444C4D"/>
+</associations>
+</Column>
+<Column name="T_SM_CASO_id_caso" id="9352F61E-DE1D-CEC1-7A51-2F5F756033DE">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>FF442BC9-FEDC-A286-A3C6-31C1987DAA1B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE6E65EE-8F77-A58E-066D-EC21E86EF36A" referredColumn="33C77808-D395-8562-372D-6E4DC517ACAA"/>
+</associations>
+</Column>
+<Column name="T_SM_OBITO_id_obito" id="7C8CAAC6-30D5-2AAA-1002-9E729E189710">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:40:03 UTC</createdTime>
+<generatorID>8AEA6C60-C254-806B-A1F4-213926AAA34D</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA44408D-9879-F65E-F0B8-DBAC4E8A0444" referredColumn="93FCE0B0-BA03-8053-7357-2FDF8A1F5BA3"/>
+</associations>
+</Column>
+<Column name="id_obito1" id="3A8F4ADA-6086-62B7-5573-BA428126D110">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:40:03 UTC</createdTime>
+<generatorID>1AC0F87A-E58E-3AC9-1999-92CC08AD878A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1EED0D5-E7D4-7625-85FD-B89B8B6F5E8F" name="T_SM_CASO_VACINA_PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>308E2F2B-2E2A-0586-A32E-6ED0A8806C54</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD3EF780-30A8-7573-62B3-6455D97EF1A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0537984-41B4-4F6A-FBF9-323D094489C6" name="T_SM_CASO_VAC_T_SM_CASO_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>B316B0C0-B9A6-CCEC-4F2A-0CA5ACC87EB7</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9352F61E-DE1D-CEC1-7A51-2F5F756033DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51CDB2BA-8184-378A-619F-38AF175AC669" name="T_SM_CASO_VAC_T_SM_VACINA_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:41:55 UTC</createdTime>
+<generatorID>543F3785-39F8-5577-8A63-25CDEF486128</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E05621A6-D04C-D102-ECF0-6EED5377BED8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02EB6FD6-541A-8CBA-33FA-9FEEFF788DEB" name="T_SM_CASO_VAC_T_SM_OBITO_FK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:40:03 UTC</createdTime>
+<generatorID>7081526F-E9C2-AE24-C3BD-47AE3C8D2B34</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C8CAAC6-30D5-2AAA-1002-9E729E189710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

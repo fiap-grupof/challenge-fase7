@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_SM_ENSINO_T_SM_OBITO" directorySegmentName="seg_0" id="96ED4B97-9F44-B9DA-2CC9-E05AAD997970">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:31:52 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<sourcePk>F430DC06-8236-2763-931A-A38BED301AF5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4D429E2-DD5B-F904-2D39-E7E08732BED5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA580EE2-3091-3923-E67C-3ACEA07764DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

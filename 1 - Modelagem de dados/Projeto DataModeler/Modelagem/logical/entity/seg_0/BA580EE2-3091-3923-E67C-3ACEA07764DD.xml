@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA580EE2-3091-3923-E67C-3ACEA07764DD" name="T_SM_OBITO">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:02:53 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_obito" id="7786408C-A80F-6FE6-10E2-E03D00783195">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:03:08 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sexo" id="E9CE6E80-7EA3-994B-471E-6C528B061B41">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:31:16 UTC</createdTime>
+<generatorID>CF48D54B-D5C1-6DF6-9E79-FD77A14DDC0B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<referedAttribute>2637D3BF-CDE5-5978-ED21-04047AC20FAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nasc" id="D440B8BA-AFC0-0945-BE9A-B2360D5275E9">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:34:54 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ensino" id="E81639D3-DDFE-D4D6-64E6-41B8B94A4358">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:31:52 UTC</createdTime>
+<generatorID>96ED4B97-9F44-B9DA-2CC9-E05AAD997970</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<referedAttribute>DD0EEA1F-D97D-3B35-7F39-7E7A2714702E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_obito" id="02939DFC-3ACB-0D03-8D05-16F6625A6199">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:16:44 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cidade" id="A2857CE6-10B1-B44D-EA8D-0237C6910DA8">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:17:28 UTC</createdTime>
+<generatorID>64736D88-C2D9-041B-00A7-77556029006B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<referedAttribute>71C00E62-475C-06D7-C99E-A959377B7E25</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_doenca" id="97C742DE-3B1C-682A-0E88-A919B4A0007F">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:22:38 UTC</createdTime>
+<generatorID>163BD328-AD71-939E-DAAB-2A24612DC8BE</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<referedAttribute>BA75ED8E-74EF-F7A2-E3A0-12252D69E072</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_renda" id="4FCDC0B5-97EA-BC20-876F-07254061D2F6">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 05:34:00 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C05318AE-05E1-D360-9B0B-2ED0069A63E0" name="T_SM_OBITO PK">
+<createdBy>rennecastrucci</createdBy>
+<createdTime>2022-06-08 03:03:23 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="F697EC8D-F94C-BEBD-EF7A-91F34B890CE6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7786408C-A80F-6FE6-10E2-E03D00783195</attributeRef>
+<attributeRef>D1582194-E818-5946-06EC-79B137AE3080</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
