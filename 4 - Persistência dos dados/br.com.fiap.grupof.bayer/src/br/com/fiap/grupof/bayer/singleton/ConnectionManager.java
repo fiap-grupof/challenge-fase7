@@ -1,4 +1,4 @@
-package br.com.fiap.grupof.bayer.DAO;
+package br.com.fiap.grupof.bayer.singleton;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -40,7 +40,6 @@ public class ConnectionManager {
 		try {
 			if (conn != null && !conn.isClosed()) {
 				conn.close();
-				System.out.println("Conexão Singleton fechada");
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();

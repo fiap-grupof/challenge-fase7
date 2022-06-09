@@ -2,9 +2,10 @@ package br.com.fiap.grupof.bayer.interfaces;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
-import br.com.fiap.grupof.bayer.DAO.ConnectionManager;
+
 import br.com.fiap.grupof.bayer.exceptions.ConnectionException;
 import br.com.fiap.grupof.bayer.exceptions.DataNotFoundException;
+import br.com.fiap.grupof.bayer.singleton.ConnectionManager;
 
 public interface DAOInterface <TipoRegistro> {
 	
@@ -16,7 +17,6 @@ public interface DAOInterface <TipoRegistro> {
 	 * Insere um novo registro
 	 * @param registro é um parâmetro do tipo Registro
 	 * @return boolean true or false confirmando se o registro foi inserido
-	 * @throws DataNotFoundException Dado não encontrado no banco de dados
 	 * @throws ConnectionException Problema com a conexão ao banco de dados
 	 * @throws SQLException erro no acesso do banco de dados ou outros erros
 	 */

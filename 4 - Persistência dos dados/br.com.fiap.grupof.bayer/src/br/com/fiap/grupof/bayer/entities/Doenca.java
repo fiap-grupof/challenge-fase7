@@ -11,14 +11,13 @@ public class Doenca {
 		super();
 	}
 	
-	public Doenca(int id, String nome, boolean vacina) {
-		this.id = id;
-		this.nome = nome;
-		this.vacina = vacina;
-	}
-	
 	public Doenca(int id) {
 		this.id = id;
+		// Só como EXEMPLO estamos colocando os nomes por aqui mas serão carregados do banco através de suas ids
+		if (id == 1) this.nome = "Dengue";
+		else if (id == 2) this.nome = "Malária";
+		else if (id == 3) this.nome = "Zika";
+		this.vacina = true;
 	}
 	
 	public int getId() {
