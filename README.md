@@ -31,17 +31,19 @@ Challenge Fase 7 - Graduação FIAP 1TDSOS 1º Ano
 
 ### 1 - Modelagem de dados
 #### Modelo Lógico
-<img align="center" src="1%20-%20Modelagem%20de%20dados/SM_BAYER_Modelo_Logico.png" alt="Modelo Logico"/>
+<img align="center" src="https://github.com/fiap-grupof/challenge-fase7/blob/main/1%20-%20Modelagem%20de%20dados/Modelo_Logico.png" alt="Modelo Logico"/>
 
 #### Modelo Relacional
-<img align="center" src="1%20-%20Modelagem%20de%20dados/SM_BAYER_Modelo_Relacional.png" alt="Modelo Relacional"/>
+<img align="center" src="https://github.com/fiap-grupof/challenge-fase7/blob/main/1%20-%20Modelagem%20de%20dados/Modelo_Relacional.png" alt="Modelo Relacional"/>
 
 # 2 - Criação do modelo físico
-<a href="2%20-%20Criação%20do%20modelo%20físico/0_Criacao_Tabelas.sql">Link para o modelo físico - SQL</a>
+<a href="https://github.com/fiap-grupof/challenge-fase7/blob/main/2%20-%20Cria%C3%A7%C3%A3o%20do%20modelo%20f%C3%ADsico/1_CriacaoModeloFisico.sql">Link para o modelo físico - SQL</a>
 
 # 3 - Diagrama de classes
 <img align="center" src="https://github.com/fiap-grupof/challenge-fase7/blob/main/3%20-%20Diagrama%20de%20classes/uml.png" alt="UML"/>
 
 # 4 - Persistência dos dados
+<img align="center" src="https://github.com/fiap-grupof/challenge-fase7/blob/main/4%20-%20Persist%C3%AAncia%20dos%20dados/testePersistenciaDeDados.gif" alt="Persistência dos Dados"/>
 
 # 5 - Insights
+<img align="center" src="https://github.com/fiap-grupof/challenge-fase7/blob/main/5%20-%20Insights/insigths.png" alt="Insights"/>
